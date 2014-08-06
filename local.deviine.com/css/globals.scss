@@ -1,0 +1,790 @@
+
+
+/* Variables Start */
+$darkgray: #2c3034; /* Shark */
+$transparentgray: rgba(44,48,52,.7); /* Transparent Shark */
+$faintgray: rgba(255,255,255,.2); /* Faint Gray */
+$lightgray: rgba(150,150,150,1); /* Dusty Gray */
+$green: #4EF253; /* Screamin' Green */
+$lightgreen: #95F995; /* Mint Green */
+$yellow: #FCD31C; /* Candlelight */
+$red: #F7253E; /* Torch Red */
+
+$header-font: "dense", 'Roboto Condensed', "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$main-font: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+/* Variables End */
+
+
+/* Body Start */
+@mixin mainbody() {
+		max-width: 1000px;
+		height: 100%;
+		margin: 10px auto 0 15%;
+		padding: 0;
+		background: url('../img/debut_light.png') repeat white;
+			@media screen and (max-width:840px) {
+				margin: 20px auto 0 15%;
+			}
+			@media screen and (max-width:830px) {
+				margin: 0 auto;
+			}
+	}	
+/* Body End */
+
+
+/* Navigation Start */
+@mixin nav() {
+		position: fixed;
+		left: 0;
+		top: 0px;
+		width: 150px;
+		margin: 50px 0 1px 0;
+			@media screen and (max-width:830px) {
+				margin: 10px 0 1px 0;
+			}
+	#logo {
+		padding: 0;
+		width: 100%;
+		margin: 0;
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
+	}
+	.nav {
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		left: 0;
+			a {
+				border-top-right-radius: 2px;
+				border-bottom-right-radius: 2px;
+				color: white;
+				font-size: 12px;
+				line-height: 12px;
+				font-family: $main-font;
+				text-transform: uppercase;
+				padding: 10px 10% 10px 10px;
+				margin: 1px 0;
+				width: 100%;
+				list-style: none;
+				display: block;
+				position: relative;
+				left: 0;
+				background: $darkgray;
+				img {
+					width: 20%;
+					padding-right: 5%;
+				}
+			}
+	}
+	#currentpage  {
+
+	}
+	.mobilemenu {
+		display: none;
+		position: relative;
+		width: 500px;
+		margin: 20px 35%;
+	}
+	.dropdown {
+		padding: 10px 20px;
+		background: $darkgray;
+			&:hover {
+				background: $darkgray;
+			}
+			img {
+				width: 4%;
+				margin: 0;
+			}
+	}
+	.f-dropdown li a {
+		font-family: $main-font;
+		font-size: 14px;
+	}
+	.typeform-share.button {
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 2px;
+		border-top-left-radius: none;
+		border-bottom-left-radius: none;
+		width: 100%;
+		line-height: 12px;
+		color: white;
+		font-size: 12px;
+		font-family: $main-font;
+		text-transform: uppercase;
+		padding: 10px 0 10px 10px;
+		list-style: none;
+		display: inline-block;
+		position: relative;
+		left: 0;
+		background: $darkgray;
+		box-shadow: none;
+		border: none;
+		-webkit-box-shadow: none;
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-ms-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+			&:hover {
+				background: $darkgray;
+				font-size: 12px;
+				-webkit-transition: all .5s ease;
+				-moz-transition: all .5s ease;
+				-ms-transition: all .5s ease;
+				-o-transition: all .5s ease;
+				transition: all .5s ease;
+			}
+			img {
+				width: 20%;
+				padding-right: 5%;
+			}
+	}
+	@media screen and (max-width:830px) {
+		position: relative;
+		top: 0px;
+		width: 100%;
+			#logo {
+				width: 36%;
+				min-width: 100px;
+			}
+			.mobilemenu {
+				display: inline;
+				margin: 20px 40%;
+			}
+			.nav {
+				display: none;
+			}
+			.dropdown {
+				display: inline;
+				width: 300px;
+			}
+			.typeform-share {
+				font-family: $main-font;
+				font-size: 14px;
+				text-transform: none;
+				background: none;
+				color: inherit;
+				margin: 0;
+					&:hover {
+						background: none;
+						color: inherit;
+						font-size: 14px;
+						padding: 10px 0 10px 10px;
+						width: 100%;
+					}
+			}
+			#currentpage  {
+				color: $green;
+				border-left: 3px solid $green;
+				padding: 10px 0 10px 10px;
+			}
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+	@media screen and (max-width:550px) {
+		#logo {
+			margin: 0 31%;
+		}
+		.mobilemenu {
+			top: 20px;
+			margin: 0 34%;
+		}
+		.dropdown {
+			padding: 10px 10%;
+		}
+	}
+}
+/* Navigation End */
+
+
+/* Page Title Start */
+@mixin pagetitle() {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 1%;
+	float: left;
+		h1 {
+			color: $darkgray;
+			font-family: $header-font;
+			font-size: 38px;
+			text-transform: uppercase;
+		}
+	@media screen and (max-width:830px) {
+		top: 110%;
+		h1 {
+			font-size: 20px;
+		}
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/* Page Title End */
+
+
+
+/* Account Start */
+#account {
+	position: absolute;
+	top: -5px;
+	right: 50px;
+	display: inline;
+		h3 {
+			font-size: 14px;
+			line-height: 14px;
+			font-family: $main-font;
+			margin: 6px 0 0 10px;
+			color: $darkgray;
+			float: left;
+			padding: 0 10px;
+			text-align: right;
+			border: 1px solid rgba(210,210,210,1);
+			border-top: 0;
+			border-bottom: 0;
+				a {
+					color: $red;
+					font-size: 12px;
+					font-weight: bold;
+				}
+		}
+		.profilepic {
+			width: 40px;
+			height: 40px;
+			margin-left: 10px;
+			background: $darkgray;
+			float: right;
+			clear: right;
+			cursor: pointer;
+				img {
+					border-radius: 20px;
+				}
+		}
+		.search {
+			width: 200px;
+			height: 30px;
+			margin-top: 5px;
+			background: white;
+			border: 1px solid $lightgray;
+			border-radius: 4px;
+			float: left;
+			padding-left: 5px;
+		}
+		.searchicon {
+			float: left;
+				img {
+					margin: 7.5px 0 0 10px;
+					width: 25px;
+				}
+		}
+		#accounthover {
+			background: white;
+			border: none;
+			width: 280px;
+			padding: 15px;
+			box-shadow: 0px 0px 7px rgba(0,0,0,.3);
+				img {
+					width: 50%;
+				}
+				h4 {
+					font-size: 20px;
+					line-height: 18px;
+					font-family: $main-font;
+					color: $red;
+					padding: 5px 0 0 0;
+					margin-bottom: 5px;
+
+				}
+				h6 {
+					font-size: 12px;
+					font-family: $main-font;
+					color: $lightgray;
+					padding: 0 0 10px 0;
+					border-bottom: 1px solid rgba(210,210,210,1);
+
+				}
+				ul {
+					list-style: none;
+					font-family: $main-font;
+					font-size: 12px;
+					color: $lightgray;
+					padding: 0 0px;
+					margin: 0;
+						li {
+							margin: 5px 0;
+								&:hover {
+									color: $darkgray;
+									background: none;
+								}
+						}
+						h5 {
+							font-size: 12px;
+							font-family: $main-font;
+							color: $lightgray;
+							padding: 10px 0px;
+							margin: 0;
+							border-top: 1px solid rgba(210,210,210,1);
+								a {
+									color: $darkgray;
+									font-family: $main-font;
+									font-size: 16px;
+										&:hover {
+											color: $red;
+										}
+								}
+						}
+						.signout {
+							background: rgba(210,210,210,1);
+							color: white;
+							width: 100%;
+							padding: 10px 0;
+							border-radius: 2px;
+							text-align: center;
+		
+								&:hover {
+									color: white;
+									background: $darkgray;
+								}
+						}
+				}
+		}
+	@media screen and (max-width:600px) {
+		display: none;
+	}
+}
+.geolocation {
+	position: relative;
+	margin: 0 auto;
+		#location {
+		  margin: 0 auto 20px auto;
+		  padding: 0;
+		  text-align: center;
+		  font-family: $main-font;
+		  color: $red;
+		  font-size: 14px;
+		  font-weight: bold;
+		  position: relative;
+		  	h2 {
+			  color: $red;
+			  font-family: $main-font;
+			  padding: 0;
+			  margin: 0 auto;
+			  font-size: 12px;
+			  font-weight: bold;
+			  text-align: center;
+			  position: relative;
+			}
+		}
+		.getlocation {
+		  display: block;
+		  margin: 0 auto;
+		  padding: 0 0 0 10px;
+		  position: relative;
+		  font-family: $main-font;
+		  font-size: 12px;
+		  color: $darkgray;
+		}
+}
+/* Account End */
+
+
+
+/* Section Start */
+@mixin section() {
+	background: none;
+	margin: 1%;
+	position: relative;
+	float: left;
+}
+@mixin topsection() {
+	background: none;
+	margin: 40px 1% 1% 1%;
+	position: relative;
+	float: left;
+		@media screen and (max-width:600px) {
+			margin: 70px 1% 1% 1%;
+		}	
+}
+@mixin sectionbody() {
+	padding: 3%;
+	margin: 0;
+}
+/* Section End */
+
+
+/* Header Bar Start */
+@mixin smallheaderbar() {
+	font-size: 17px;
+}
+@mixin headerbar() {
+	background: $darkgray;
+	font-family: $header-font;
+	font-size: 27px;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 3px 25px;
+		@media screen and (max-width:830px) {
+			@include smallheaderbar();
+		}
+}
+
+/* Header Bar End */
+
+
+
+/*---------------------------City, State & Zip Start------------------------------*/
+/* Choose A City Start */
+.city {
+ 	@include topsection();
+	width: 30%;
+	margin: 0 1.5%;
+	clear: left;
+		.citybar {
+			@include headerbar();
+			color: $yellow;
+			border-top-right-radius: 2px;
+			border-top-left-radius: 2px;
+		}
+		.citybody {
+			border: 2px solid $darkgray;
+			border-top: none;
+			height: 180px;
+			padding: 1% 1% 0 1%;
+				.cities {
+					margin: 0;
+					li {
+						list-style: none;
+						display: inline;
+						width: 100%;
+						a {
+							img {
+								width: 36%;
+								margin: 8% 0 0 9%;
+									&:hover {
+										opacity: .8;
+									}
+									@media screen and (max-width: 629px) {
+										width: 20%;
+										margin: 3% 0 2% 3%;
+									}
+							}
+						}
+						
+					}
+				}
+			@media screen and (max-width: 993px) {
+				height: 170px;
+			}
+			@media screen and (max-width: 629px) {
+				height: 120px
+			}
+			@media screen and (max-width: 500px) {
+				height: 90px;
+			}
+		}
+	@media screen and (max-width: 629px) {
+			width: 94%;
+	}
+	@media screen and (max-width: 500px) {
+		.citybar {
+			@include smallheaderbar();
+		}
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/* Choose A City End */
+
+
+/* Select Your City Start */
+.selectcity {
+ 	@include topsection();
+	width: 30%;
+	margin: 0 1.5%;
+		.selectcitybar {
+			@include headerbar();
+			color: $red;
+			border-top-right-radius: 2px;
+			border-top-left-radius: 2px;
+		}
+		.selectcitybody {
+			float: left;
+			height: 180px;
+			width: 100%;
+			padding: 7% 5%;
+			border: 2px solid $darkgray;
+			border-top: 0;	
+				input {
+					width: 100%;
+					border: 1px solid rgba(200,200,200,1);
+					height: 37px;
+					padding-left: 4%;
+					font-family: $main-font;
+					font-size: 12px;
+					font-weight: normal;
+					margin: 0;
+					border-radius: 2px;
+				}
+				h3 {
+					padding: 0;
+					margin: 1% 0;
+					text-align: center;
+					font-size: 14px;
+					font-family: $main-font;
+					color: rgba(200,200,200,1);
+				}
+				.citydropdown {
+					background: white;
+					font-family: $main-font;
+					color: $lightgray;
+					padding-left: 4%;
+					font-size: 12px;
+					font-weight: normal;
+					border-radius: 2px;
+				}
+				button {
+					background: $red;
+					color: white;
+					padding: 5%;
+					border-radius: 2px;
+					width: 100%;
+					transition: none;
+						&:hover {
+							transition: none;
+							background: $darkgray;
+						}
+						&:active {
+							color: $red;
+						}
+				}
+		}
+	@media screen and (max-width: 993px) {
+		.selectcitybody {
+			padding: 20% 1%;
+			height: 170px;
+		}
+	}
+	@media screen and (max-width: 629px) {
+			width: 46%;
+			margin: 1%;
+			@include section();
+	}
+	@media screen and (max-width: 500px) {
+		.selectcitybar {
+			@include smallheaderbar();
+		}
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/* Select Your City End */
+
+
+/* Choose A State Start */
+.state {
+ 	@include topsection();
+	width: 30%;
+	margin: 0 1.5%;
+		.statebar {
+			@include headerbar();
+			color: $green;
+			border-top-right-radius: 2px;
+			border-top-left-radius: 2px;
+		}
+		.usamap {
+			height: 180px;
+			width: 100%;
+			padding: 5%;
+			border: 2px solid $darkgray;
+			border-top: none;
+				#Washington path,
+				#Colorado path {
+					fill: $green;
+				}
+				#Washington path:hover,
+				#Colorado path:hover {
+					fill: #95F995;
+				}
+			@media screen and (max-width: 993px) {
+				height: 170px;
+			}
+		}
+	@media screen and (max-width: 629px) {
+		width: 46%;
+		@include section();
+	}
+	@media screen and (max-width: 500px) {
+		.statebar {
+			@include smallheaderbar();
+		}
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/* Choose A State End */
+/*---------------------------City, State & Zip End------------------------------*/
+
+/*---------------------------Sort Start------------------------------*/
+.sort {
+	@include topsection();
+	width: 46%;
+		.sortbar {
+			@include headerbar();
+			color: $red;
+			border-top-right-radius: 2px;
+			border-top-left-radius: 2px;
+		}
+	.sortbody {
+		@include sectionbody();
+		border: 2px solid $darkgray;
+		border-top: none;
+		padding: 0;
+		height: 70px;
+			.sortwrapper {
+				position: relative;
+				width: 100%;
+				text-align: center;
+				margin: 0 auto;
+				.sortitem {
+					font-family: $main-font;
+					font-size: 12px;
+					background: $lightgray;
+					color: white;
+					padding: 2% 3.5%;
+					position: relative;
+					top: 26px;
+					height: 80px;
+					border-radius: 5px;
+					margin: 0 auto;
+						&:hover {
+							background: $darkgray;
+						}
+				}
+				.active {
+					background: $darkgray;
+				}
+			}
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/*---------------------------Sort End------------------------------*/
+
+/*---------------------------Options Start------------------------------*/
+.options {
+	@include topsection();
+	width: 46%;
+		.optionsbar {
+			@include headerbar();
+			color: $yellow;
+			border-top-right-radius: 2px;
+			border-top-left-radius: 2px;
+		}
+	.optionsbody {
+		@include sectionbody();
+		border: 2px solid $darkgray;
+		border-top: none;
+		padding: 0;
+		height: 70px;
+			.viewwrapper {
+				position: relative;
+				width: 100%;
+				text-align: center;
+				margin: 0 auto;
+				.view {
+					padding: 1.5% 5% 2% 5%;
+					position: relative;
+					top: 26px;
+					height: 80px;
+					border-radius: 5px;
+					background: $lightgray;
+					margin: 0 auto;
+						&:hover {
+							background: $darkgray;
+						}
+						img {
+							width: 6%;
+						}
+				}
+				.divider {
+					border-right: 1px solid rgba(210,210,210,1);
+					margin: 0 6% 0 5%;
+					padding: 2% 0;
+					position: relative;
+					top: 26px;
+					width: 4px;
+					height: 80px;
+				}
+				.active {
+					background: $darkgray;
+				}
+			}
+			
+	}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/*---------------------------Options End------------------------------*/
+
+/* Footer Start */
+@mixin footer() {
+	border-radius: 2px;
+	background: $darkgray;
+	bottom: 0;
+	margin: 1% 1% 0 1%;
+	width: 94%;
+	position: relative;
+	float: left;
+		p {
+			text-align: center;
+			margin: 0 0;
+			color: white;
+			font-family: $main-font;
+			font-size: 10px;
+			img {
+				width: 6%;
+				height: 6%;
+			}
+		}
+	@media screen and (max-width: 600px) {
+		display: none;
+	}
+}
+/* Footer End */
+
+
+/* Up To Top Start */
+@mixin uptotop() {
+	width: 60px;
+	position: fixed;
+	right: -15px;
+	bottom: -20px;
+	-webkit-transition: all .4s linear;
+	-moz-transition: all .4s linear;
+	-ms-transition: all .4s linear;
+	-o-transition: all .4s linear;
+	transition: all .4s linear;
+		&:hover {
+			bottom: 10px;
+			-webkit-transition: all .3s linear;
+			-moz-transition: all .3s linear;
+			-ms-transition: all .3s linear;
+			-o-transition: all .3s linear;
+			transition: all .3s linear;
+		}
+	@media screen and (max-width:830px) {
+		display: none;
+	}
+}
+/* Up To Top Start */
+
+
+
+
+

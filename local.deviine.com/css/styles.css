@@ -1,0 +1,4313 @@
+/* Variables Start */
+/* Shark */
+/* Transparent Shark */
+/* Faint Gray */
+/* Dusty Gray */
+/* Screamin' Green */
+/* Mint Green */
+/* Candlelight */
+/* Torch Red */
+/* Variables End */
+/* Body Start */
+/* Body End */
+/* Navigation Start */
+/* Navigation End */
+/* Page Title Start */
+/* Page Title End */
+/* Account Start */
+#account {
+  position: absolute;
+  top: -5px;
+  right: 50px;
+  display: inline; }
+  #account h3 {
+    font-size: 14px;
+    line-height: 14px;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    margin: 6px 0 0 10px;
+    color: #2c3034;
+    float: left;
+    padding: 0 10px;
+    text-align: right;
+    border: 1px solid #d2d2d2;
+    border-top: 0;
+    border-bottom: 0; }
+    #account h3 a {
+      color: #f7253e;
+      font-size: 12px;
+      font-weight: bold; }
+  #account .profilepic {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background: #2c3034;
+    float: right;
+    clear: right;
+    cursor: pointer; }
+    #account .profilepic img {
+      border-radius: 20px; }
+  #account .search {
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    background: white;
+    border: 1px solid #969696;
+    border-radius: 4px;
+    float: left;
+    padding-left: 5px; }
+  #account .searchicon {
+    float: left; }
+    #account .searchicon img {
+      margin: 7.5px 0 0 10px;
+      width: 25px; }
+  #account #accounthover {
+    background: white;
+    border: none;
+    width: 280px;
+    padding: 15px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3); }
+    #account #accounthover img {
+      width: 50%; }
+    #account #accounthover h4 {
+      font-size: 20px;
+      line-height: 18px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: #f7253e;
+      padding: 5px 0 0 0;
+      margin-bottom: 5px; }
+    #account #accounthover h6 {
+      font-size: 12px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: #969696;
+      padding: 0 0 10px 0;
+      border-bottom: 1px solid #d2d2d2; }
+    #account #accounthover ul {
+      list-style: none;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      color: #969696;
+      padding: 0 0px;
+      margin: 0; }
+      #account #accounthover ul li {
+        margin: 5px 0; }
+        #account #accounthover ul li:hover {
+          color: #2c3034;
+          background: none; }
+      #account #accounthover ul h5 {
+        font-size: 12px;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #969696;
+        padding: 10px 0px;
+        margin: 0;
+        border-top: 1px solid #d2d2d2; }
+        #account #accounthover ul h5 a {
+          color: #2c3034;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 16px; }
+          #account #accounthover ul h5 a:hover {
+            color: #f7253e; }
+      #account #accounthover ul .signout {
+        background: #d2d2d2;
+        color: white;
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 2px;
+        text-align: center; }
+        #account #accounthover ul .signout:hover {
+          color: white;
+          background: #2c3034; }
+  @media screen and (max-width: 600px) {
+    #account {
+      display: none; } }
+
+.geolocation {
+  position: relative;
+  margin: 0 auto; }
+  .geolocation #location {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    text-align: center;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    color: #f7253e;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative; }
+    .geolocation #location h2 {
+      color: #f7253e;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      padding: 0;
+      margin: 0 auto;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: center;
+      position: relative; }
+  .geolocation .getlocation {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+    position: relative;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #2c3034; }
+
+/* Account End */
+/* Section Start */
+/* Section End */
+/* Header Bar Start */
+/* Header Bar End */
+/*---------------------------City, State & Zip Start------------------------------*/
+/* Choose A City Start */
+.city {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 30%;
+  margin: 0 1.5%;
+  clear: left; }
+  @media screen and (max-width: 600px) {
+    .city {
+      margin: 70px 1% 1% 1%; } }
+  .city .citybar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .city .citybar {
+        font-size: 17px; } }
+  .city .citybody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    height: 180px;
+    padding: 1% 1% 0 1%; }
+    .city .citybody .cities {
+      margin: 0; }
+      .city .citybody .cities li {
+        list-style: none;
+        display: inline;
+        width: 100%; }
+        .city .citybody .cities li a img {
+          width: 36%;
+          margin: 8% 0 0 9%; }
+          .city .citybody .cities li a img:hover {
+            opacity: .8; }
+          @media screen and (max-width: 629px) {
+            .city .citybody .cities li a img {
+              width: 20%;
+              margin: 3% 0 2% 3%; } }
+    @media screen and (max-width: 993px) {
+      .city .citybody {
+        height: 170px; } }
+    @media screen and (max-width: 629px) {
+      .city .citybody {
+        height: 120px; } }
+    @media screen and (max-width: 500px) {
+      .city .citybody {
+        height: 90px; } }
+  @media screen and (max-width: 629px) {
+    .city {
+      width: 94%; } }
+  @media screen and (max-width: 500px) {
+    .city .citybar {
+      font-size: 17px; } }
+  @media screen and (max-width: 600px) {
+    .city {
+      display: none; } }
+
+/* Choose A City End */
+/* Select Your City Start */
+.selectcity {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 30%;
+  margin: 0 1.5%; }
+  @media screen and (max-width: 600px) {
+    .selectcity {
+      margin: 70px 1% 1% 1%; } }
+  .selectcity .selectcitybar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .selectcity .selectcitybar {
+        font-size: 17px; } }
+  .selectcity .selectcitybody {
+    float: left;
+    height: 180px;
+    width: 100%;
+    padding: 7% 5%;
+    border: 2px solid #2c3034;
+    border-top: 0; }
+    .selectcity .selectcitybody input {
+      width: 100%;
+      border: 1px solid #c8c8c8;
+      height: 37px;
+      padding-left: 4%;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      margin: 0;
+      border-radius: 2px; }
+    .selectcity .selectcitybody h3 {
+      padding: 0;
+      margin: 1% 0;
+      text-align: center;
+      font-size: 14px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: #c8c8c8; }
+    .selectcity .selectcitybody .citydropdown {
+      background: white;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: #969696;
+      padding-left: 4%;
+      font-size: 12px;
+      font-weight: normal;
+      border-radius: 2px; }
+    .selectcity .selectcitybody button {
+      background: #f7253e;
+      color: white;
+      padding: 5%;
+      border-radius: 2px;
+      width: 100%;
+      transition: none; }
+      .selectcity .selectcitybody button:hover {
+        transition: none;
+        background: #2c3034; }
+      .selectcity .selectcitybody button:active {
+        color: #f7253e; }
+  @media screen and (max-width: 993px) {
+    .selectcity .selectcitybody {
+      padding: 20% 1%;
+      height: 170px; } }
+  @media screen and (max-width: 629px) {
+    .selectcity {
+      width: 46%;
+      margin: 1%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; } }
+  @media screen and (max-width: 500px) {
+    .selectcity .selectcitybar {
+      font-size: 17px; } }
+  @media screen and (max-width: 600px) {
+    .selectcity {
+      display: none; } }
+
+/* Select Your City End */
+/* Choose A State Start */
+.state {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 30%;
+  margin: 0 1.5%; }
+  @media screen and (max-width: 600px) {
+    .state {
+      margin: 70px 1% 1% 1%; } }
+  .state .statebar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .state .statebar {
+        font-size: 17px; } }
+  .state .usamap {
+    height: 180px;
+    width: 100%;
+    padding: 5%;
+    border: 2px solid #2c3034;
+    border-top: none; }
+    .state .usamap #Washington path,
+    .state .usamap #Colorado path {
+      fill: #4ef253; }
+    .state .usamap #Washington path:hover,
+    .state .usamap #Colorado path:hover {
+      fill: #95F995; }
+    @media screen and (max-width: 993px) {
+      .state .usamap {
+        height: 170px; } }
+  @media screen and (max-width: 629px) {
+    .state {
+      width: 46%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; } }
+  @media screen and (max-width: 500px) {
+    .state .statebar {
+      font-size: 17px; } }
+  @media screen and (max-width: 600px) {
+    .state {
+      display: none; } }
+
+/* Choose A State End */
+/*---------------------------City, State & Zip End------------------------------*/
+/*---------------------------Sort Start------------------------------*/
+.sort {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  @media screen and (max-width: 600px) {
+    .sort {
+      margin: 70px 1% 1% 1%; } }
+  .sort .sortbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .sort .sortbar {
+        font-size: 17px; } }
+  .sort .sortbody {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: none;
+    padding: 0;
+    height: 70px; }
+    .sort .sortbody .sortwrapper {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto; }
+      .sort .sortbody .sortwrapper .sortitem {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        background: #969696;
+        color: white;
+        padding: 2% 3.5%;
+        position: relative;
+        top: 26px;
+        height: 80px;
+        border-radius: 5px;
+        margin: 0 auto; }
+        .sort .sortbody .sortwrapper .sortitem:hover {
+          background: #2c3034; }
+      .sort .sortbody .sortwrapper .active {
+        background: #2c3034; }
+  @media screen and (max-width: 600px) {
+    .sort {
+      display: none; } }
+
+/*---------------------------Sort End------------------------------*/
+/*---------------------------Options Start------------------------------*/
+.options {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  @media screen and (max-width: 600px) {
+    .options {
+      margin: 70px 1% 1% 1%; } }
+  .options .optionsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .options .optionsbar {
+        font-size: 17px; } }
+  .options .optionsbody {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: none;
+    padding: 0;
+    height: 70px; }
+    .options .optionsbody .viewwrapper {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto; }
+      .options .optionsbody .viewwrapper .view {
+        padding: 1.5% 5% 2% 5%;
+        position: relative;
+        top: 26px;
+        height: 80px;
+        border-radius: 5px;
+        background: #969696;
+        margin: 0 auto; }
+        .options .optionsbody .viewwrapper .view:hover {
+          background: #2c3034; }
+        .options .optionsbody .viewwrapper .view img {
+          width: 6%; }
+      .options .optionsbody .viewwrapper .divider {
+        border-right: 1px solid #d2d2d2;
+        margin: 0 6% 0 5%;
+        padding: 2% 0;
+        position: relative;
+        top: 26px;
+        width: 4px;
+        height: 80px; }
+      .options .optionsbody .viewwrapper .active {
+        background: #2c3034; }
+  @media screen and (max-width: 600px) {
+    .options {
+      display: none; } }
+
+/*---------------------------Options End------------------------------*/
+/* Footer Start */
+/* Footer End */
+/* Up To Top Start */
+/* Up To Top Start */
+/*---------------------------Globals Start------------------------------*/
+/* Body Start */
+body {
+  max-width: 1000px;
+  height: 100%;
+  margin: 10px auto 0 15%;
+  padding: 0;
+  background: url("../img/debut_light.png") repeat white; }
+  @media screen and (max-width: 840px) {
+    body {
+      margin: 20px auto 0 15%; } }
+  @media screen and (max-width: 830px) {
+    body {
+      margin: 0 auto; } }
+
+/* Body End */
+/* Header Start */
+header {
+  position: fixed;
+  left: 0;
+  top: 0px;
+  width: 150px;
+  margin: 50px 0 1px 0; }
+  @media screen and (max-width: 830px) {
+    header {
+      margin: 10px 0 1px 0; } }
+  header #logo {
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px; }
+  header .nav {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0; }
+    header .nav a {
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      color: white;
+      font-size: 12px;
+      line-height: 12px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      padding: 10px 10% 10px 10px;
+      margin: 1px 0;
+      width: 100%;
+      list-style: none;
+      display: block;
+      position: relative;
+      left: 0;
+      background: #2c3034; }
+      header .nav a img {
+        width: 20%;
+        padding-right: 5%; }
+  header .mobilemenu {
+    display: none;
+    position: relative;
+    width: 500px;
+    margin: 20px 35%; }
+  header .dropdown {
+    padding: 10px 20px;
+    background: #2c3034; }
+    header .dropdown:hover {
+      background: #2c3034; }
+    header .dropdown img {
+      width: 4%;
+      margin: 0; }
+  header .f-dropdown li a {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+  header .typeform-share.button {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    width: 100%;
+    line-height: 12px;
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0 10px 10px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    background: #2c3034;
+    box-shadow: none;
+    border: none;
+    -webkit-box-shadow: none;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease; }
+    header .typeform-share.button:hover {
+      background: #2c3034;
+      font-size: 12px;
+      -webkit-transition: all .5s ease;
+      -moz-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease; }
+    header .typeform-share.button img {
+      width: 20%;
+      padding-right: 5%; }
+  @media screen and (max-width: 830px) {
+    header {
+      position: relative;
+      top: 0px;
+      width: 100%; }
+      header #logo {
+        width: 36%;
+        min-width: 100px; }
+      header .mobilemenu {
+        display: inline;
+        margin: 20px 40%; }
+      header .nav {
+        display: none; }
+      header .dropdown {
+        display: inline;
+        width: 300px; }
+      header .typeform-share {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-transform: none;
+        background: none;
+        color: inherit;
+        margin: 0; }
+        header .typeform-share:hover {
+          background: none;
+          color: inherit;
+          font-size: 14px;
+          padding: 10px 0 10px 10px;
+          width: 100%; }
+      header #currentpage {
+        color: #4ef253;
+        border-left: 3px solid #4ef253;
+        padding: 10px 0 10px 10px; } }
+  @media screen and (max-width: 600px) {
+    header {
+      display: none; } }
+  @media screen and (max-width: 550px) {
+    header #logo {
+      margin: 0 31%; }
+    header .mobilemenu {
+      top: 20px;
+      margin: 0 34%; }
+    header .dropdown {
+      padding: 10px 10%; } }
+
+/* Header End */
+/* Page Title Start */
+#pagetitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 1%;
+  float: left; }
+  #pagetitle h1 {
+    color: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    text-transform: uppercase; }
+  @media screen and (max-width: 830px) {
+    #pagetitle {
+      top: 110%; }
+      #pagetitle h1 {
+        font-size: 20px; } }
+  @media screen and (max-width: 600px) {
+    #pagetitle {
+      display: none; } }
+
+/* Page Title End */
+/* Up To Top Start */
+.uptotop {
+  width: 60px;
+  position: fixed;
+  right: -15px;
+  bottom: -20px;
+  -webkit-transition: all .4s linear;
+  -moz-transition: all .4s linear;
+  -ms-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear; }
+  .uptotop:hover {
+    bottom: 10px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear; }
+  @media screen and (max-width: 830px) {
+    .uptotop {
+      display: none; } }
+
+/* Up To Top End */
+/* Footer Start */
+footer {
+  border-radius: 2px;
+  background: #2c3034;
+  bottom: 0;
+  margin: 1% 1% 0 1%;
+  width: 94%;
+  position: relative;
+  float: left; }
+  footer p {
+    text-align: center;
+    margin: 0 0;
+    color: white;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 10px; }
+    footer p img {
+      width: 6%;
+      height: 6%; }
+  @media screen and (max-width: 600px) {
+    footer {
+      display: none; } }
+
+/* Footer End */
+/*---------------------------Globals End------------------------------*/
+/*---------------------------Index Start------------------------------*/
+/* Alert Start */
+#alertmodal.reveal-modal {
+  height: 550px;
+  position: fixed;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  background: #2c3034;
+  border-radius: 10px; }
+  #alertmodal.reveal-modal .close-reveal-modal {
+    position: relative;
+    bottom: 0; }
+  #alertmodal.reveal-modal h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #4ef253;
+    line-height: 45px;
+    text-align: center; }
+    @media screen and (max-width: 830px) {
+      #alertmodal.reveal-modal h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px; } }
+  #alertmodal.reveal-modal h4 {
+    font-size: 30px;
+    color: white;
+    text-align: center; }
+    @media screen and (max-width: 830px) {
+      #alertmodal.reveal-modal h4 {
+        font-size: 15px;
+        line-height: 18px; } }
+  #alertmodal.reveal-modal h6 {
+    font-size: 15px;
+    margin-top: 50px;
+    color: white; }
+    @media screen and (max-width: 630px) {
+      #alertmodal.reveal-modal h6 {
+        margin-top: 0;
+        font-size: 12px; } }
+  #alertmodal.reveal-modal .agebuttons {
+    width: 100%;
+    position: relative;
+    text-align: center; }
+  #alertmodal.reveal-modal .over21 {
+    width: 200px;
+    padding: 3% 0;
+    margin: 0 1%;
+    border-radius: 5px;
+    background: #4ef253;
+    color: #2c3034; }
+    @media screen and (max-width: 630px) {
+      #alertmodal.reveal-modal .over21 {
+        width: 100px;
+        font-size: 13px; } }
+  #alertmodal.reveal-modal .notover21 {
+    width: 200px;
+    padding: 3% 0;
+    margin: 0 1%;
+    border-radius: 5px;
+    background: #f7253e;
+    color: #2c3034; }
+    @media screen and (max-width: 630px) {
+      #alertmodal.reveal-modal .notover21 {
+        width: 100px;
+        font-size: 13px; } }
+  @media screen and (max-width: 630px) {
+    #alertmodal.reveal-modal {
+      height: 450px; } }
+
+/* Alert End */
+/* Slider Start */
+#slider {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 60%; }
+  @media screen and (max-width: 600px) {
+    #slider {
+      margin: 70px 1% 1% 1%; } }
+  #slider .sliderbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #slider .sliderbar {
+        font-size: 17px; } }
+  #slider .slider img {
+    margin: 0; }
+  #slider .orbit-timer,
+  #slider .orbit-slide-number {
+    display: none; }
+  #slider .orbit-prev,
+  #slider .orbit-next {
+    background: rgba(44, 48, 52, 0.7); }
+  #slider .orbit-prev {
+    border-radius: 0 15px 15px 0; }
+    #slider .orbit-prev span {
+      border-right-color: #f7253e; }
+  #slider .orbit-next {
+    border-radius: 15px 0 0 15px; }
+    #slider .orbit-next span {
+      border-left-color: #f7253e; }
+  #slider .orbit-bullets-container {
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%; }
+  #slider .orbit-bullets {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 4;
+    cursor: pointer;
+    background: rgba(44, 48, 52, 0.7); }
+    #slider .orbit-bullets li {
+      background: none;
+      border: 2px solid #f7253e; }
+      #slider .orbit-bullets li.active {
+        background: white;
+        border: 2px solid white; }
+      #slider .orbit-bullets li:hover {
+        border: 2px solid white; }
+  @media screen and (max-width: 600px) {
+    #slider {
+      display: none; } }
+
+/* Slider End */
+/* Best Prices Start */
+#bestprices {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 32%; }
+  @media screen and (max-width: 600px) {
+    #bestprices {
+      margin: 70px 1% 1% 1%; } }
+  #bestprices .bestpricesbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #bestprices .bestpricesbar {
+        font-size: 17px; } }
+  #bestprices .bestpricesbody {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0; }
+    #bestprices .bestpricesbody li {
+      list-style: none; }
+    #bestprices .bestpricesbody .usamap {
+      height: 25%; }
+      #bestprices .bestpricesbody .usamap #LocationWashington path,
+      #bestprices .bestpricesbody .usamap #LocationColorado path {
+        fill: #4ef253; }
+      #bestprices .bestpricesbody .usamap #LocationWashington path:hover,
+      #bestprices .bestpricesbody .usamap #LocationColorado path:hover {
+        fill: #95f995; }
+  @media screen and (max-width: 600px) {
+    #bestprices {
+      display: none;
+      width: 94%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; } }
+
+/* Best Prices End */
+/* Daily Deals Start */
+#dailydeals {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  #dailydeals .dailydealsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #dailydeals .dailydealsbar {
+        font-size: 17px; } }
+  #dailydeals .dailydeals {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    padding: 0;
+    float: left; }
+    #dailydeals .dailydeals .dealcardwrapper {
+      width: 42%;
+      margin: 4% 0 4% 4.8%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      float: left;
+      border-radius: 15px;
+      border: 2px dashed #2c3034; }
+      #dailydeals .dailydeals .dealcardwrapper img {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto; }
+      #dailydeals .dailydeals .dealcardwrapper .dealinfo {
+        width: 100%;
+        position: absolute;
+        bottom: -27px;
+        left: -2px;
+        padding: 5%;
+        background: rgba(44, 48, 52, 0.7);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo:hover {
+          bottom: -5px;
+          -webkit-transition: .3s;
+          -moz-transition: .3s;
+          -ms-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h1,
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h2,
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h3,
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h4,
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h5 {
+          width: 100%;
+          margin: 0;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-weight: normal; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h1 {
+          font-size: 16px;
+          line-height: 18px;
+          color: white; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h2 {
+          padding: 2% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #c8c8c8; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h3 {
+          padding: 1% 0 0 0;
+          font-size: 12px;
+          line-height: 14px;
+          color: #9b9b9b; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h4 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #fcd31c; }
+        #dailydeals .dailydeals .dealcardwrapper .dealinfo h5 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: white; }
+      #dailydeals .dailydeals .dealcardwrapper .dealinfohover {
+        bottom: -5px; }
+  @media screen and (max-width: 600px) {
+    #dailydeals {
+      display: none; } }
+
+/* Daily Deals End */
+/* Strains of the Week Start */
+#sotw {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  #sotw .sotwbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #sotw .sotwbar {
+        font-size: 17px; } }
+  #sotw .sotw {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    padding: 0; }
+  #sotw .sotwcard {
+    border: 3px solid #2c3034;
+    border-radius: 10px;
+    list-style: none;
+    width: 42%;
+    margin: 4% 0 4% 4.8%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    #sotw .sotwcard:hover {
+      -webkit-transform: scale(1.03);
+      -moz-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      -o-transform: scale(1.03);
+      transform: scale(1.03);
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -ms-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+    #sotw .sotwcard img {
+      position: relative;
+      border-radius: 7px 7px 0 0;
+      width: 100%; }
+    #sotw .sotwcard .sotwinfo {
+      background: #f7253e;
+      border-radius: 0 0 7px 7px; }
+      #sotw .sotwcard .sotwinfo h1 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+        color: white;
+        background: #f7253e;
+        margin: 0;
+        line-height: 30px; }
+      #sotw .sotwcard .sotwinfo h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        color: #2c3034;
+        background: #f7253e;
+        margin: 0;
+        padding: 0; }
+      #sotw .sotwcard .sotwinfo h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 10px;
+        text-align: center;
+        color: #2c3034;
+        background: #f7253e;
+        margin: 0;
+        padding: 2% 0; }
+      #sotw .sotwcard .sotwinfo h4 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        text-align: center;
+        line-height: 14px;
+        color: white;
+        background: #f7253e;
+        margin: 0;
+        padding: 5.7% 0;
+        border-radius: 0 0 7px 7px; }
+  @media screen and (max-width: 600px) {
+    #sotw {
+      display: none;
+      width: 94%; } }
+
+/* Strains of the Week End */
+/* Voting Start */
+#voting {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  #voting .votingbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #voting .votingbar {
+        font-size: 17px; } }
+  #voting .voting {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    padding: 0 5% 0% 5%; }
+  @media screen and (max-width: 600px) {
+    #voting {
+      display: none;
+      width: 94%; } }
+
+/* Voting End */
+/* Featured Dispensaries Start */
+.featureddispensaries {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  .featureddispensaries .headerbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .featureddispensaries .headerbar {
+        font-size: 17px; } }
+  .featureddispensaries .featureddispensariesbody {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: none;
+    padding: 0; }
+    .featureddispensaries .featureddispensariesbody .audcard {
+      width: 42%;
+      background: white;
+      display: inline-block;
+      margin: 4% 0 4% 4.8%;
+      padding: 0;
+      border-radius: 10px;
+      border: 3px solid #f7253e;
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -ms-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+      .featureddispensaries .featureddispensariesbody .audcard:hover {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        transform: scale(1.03);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+      .featureddispensaries .featureddispensariesbody .audcard .infocontainer {
+        padding: 0;
+        float: left;
+        width: 100%;
+        margin: 0;
+        position: relative;
+        text-align: center; }
+        .featureddispensaries .featureddispensariesbody .audcard .infocontainer .audinfo {
+          padding: 0 1%;
+          float: left;
+          width: 100%; }
+          .featureddispensaries .featureddispensariesbody .audcard .infocontainer .audinfo .audlogo {
+            position: relative;
+            margin: 0 auto;
+            width: 100%;
+            padding: 5% 22%; }
+          .featureddispensaries .featureddispensariesbody .audcard .infocontainer .audinfo h2 {
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 20px;
+            width: 100%;
+            line-height: 22px;
+            color: #f7253e; }
+          .featureddispensaries .featureddispensariesbody .audcard .infocontainer .audinfo h3 {
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            color: #969696; }
+        .featureddispensaries .featureddispensariesbody .audcard .infocontainer .overallrating {
+          margin: 0;
+          list-style: none; }
+          .featureddispensaries .featureddispensariesbody .audcard .infocontainer .overallrating li {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 16%; }
+          .featureddispensaries .featureddispensariesbody .audcard .infocontainer .overallrating h4 {
+            color: #969696;
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 12px; }
+        .featureddispensaries .featureddispensariesbody .audcard .infocontainer .distance {
+          color: #f7253e;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          margin: 1% 2% 4% 0; }
+  @media screen and (max-width: 600px) {
+    .featureddispensaries {
+      display: none;
+      width: 94%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; } }
+
+/* Featured Dispensaries End */
+/* Whats In Your Bowl Start */
+#wiyb {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 46%; }
+  #wiyb .wiybbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #wiyb .wiybbar {
+        font-size: 17px; } }
+  #wiyb .wiyb {
+    height: 1616px;
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0; }
+  @media screen and (max-width: 600px) {
+    #wiyb {
+      width: 94%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left;
+      display: none; } }
+
+/* Whats In Your Bowl End */
+/* Sponsor Start */
+#sponsor {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 94%; }
+  #sponsor .sponsorbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: white;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #sponsor .sponsorbar {
+        font-size: 17px; } }
+  #sponsor .sponsorbackground {
+    padding: 3%;
+    margin: 0;
+    padding: 1%;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    list-style: none; }
+    #sponsor .sponsorbackground li {
+      display: inline; }
+    #sponsor .sponsorbackground img {
+      width: 11%;
+      margin: 1.3%; }
+  @media screen and (max-width: 500px) {
+    #sponsor .sponsorbackground {
+      padding: 5%; }
+      #sponsor .sponsorbackground img {
+        width: 28%; } }
+  @media screen and (max-width: 600px) {
+    #sponsor {
+      display: none; } }
+
+/* Sponsor End */
+/* Mobile Start */
+.mobile {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  display: none; }
+  .mobile .topbar {
+    position: fixed;
+    width: 100%;
+    height: 28px;
+    z-index: 3;
+    text-align: right;
+    background: #2c3034;
+    color: rgba(255, 255, 255, 0.2);
+    padding: 1% 2% 2% 1%; }
+    .mobile .topbar h3 {
+      width: 40%;
+      float: left;
+      text-align: left;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      color: white;
+      padding: 0 3%; }
+      .mobile .topbar h3 a {
+        font-size: 9px;
+        color: #fcd31c;
+        padding-left: 3%; }
+    .mobile .topbar .signin,
+    .mobile .topbar .signup {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 12px; }
+    .mobile .topbar .signin {
+      color: white; }
+    .mobile .topbar .signup {
+      color: #4ef253; }
+  .mobile .header {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    top: 0; }
+    .mobile .header #logo {
+      position: fixed;
+      z-index: 4;
+      top: 0px;
+      left: 35%;
+      padding: 0;
+      width: 30%;
+      box-shadow: 0 3px 7px rgba(44, 48, 52, 0.3); }
+  .mobile blockquote {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #969696;
+    margin: 0 0 5% 0; }
+    .mobile blockquote h4 {
+      font-size: 20px;
+      font-family: 'Pacifico', 'Lobster', "Brush Script MT", cursive;
+      color: #2c3034;
+      margin: 0;
+      padding: 0; }
+  .mobile .mobileindex {
+    width: 100%;
+    margin-top: 80px; }
+    .mobile .mobileindex .search {
+      width: 60%;
+      height: 43px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0 auto 0 10%;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      box-shadow: none;
+      border: 2px solid #2c3034;
+      border-right: none;
+      display: inline;
+      float: left; }
+    .mobile .mobileindex button {
+      width: 20%;
+      height: 43px;
+      background: #f7253e;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: white;
+      padding: 0;
+      margin: 0 10% 0 0;
+      border: 2px solid #2c3034;
+      border-left: none;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      float: left; }
+  .mobile .location {
+    display: none;
+    width: 100%; }
+    .mobile .location .search {
+      width: 60%;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0 auto 0 10%;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      box-shadow: none;
+      border: 2px solid #2c3034;
+      border-right: none;
+      display: inline;
+      float: left; }
+    .mobile .location button {
+      width: 20%;
+      height: 37px;
+      background: #f7253e;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: white;
+      padding: 0;
+      margin: 0 10% 0 0;
+      border: 2px solid #2c3034;
+      border-left: none;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      float: left; }
+    .mobile .location h4 {
+      font-size: 20px;
+      font-family: 'Pacifico', 'Lobster', "Brush Script MT", cursive;
+      color: #2c3034;
+      margin: 0 0 3% 0;
+      padding: 0;
+      clear: left; }
+    .mobile .location .geolocation {
+      float: left;
+      text-align: center;
+      margin: 3% 40%;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      width: 20%;
+      color: #fcd31c;
+      background: #2c3034;
+      padding: 2%;
+      border-radius: 5px; }
+  .mobile .mobilepagetitle {
+    font-size: 30px;
+    font-family: 'Pacifico', 'Lobster', "Brush Script MT", cursive;
+    color: #2c3034;
+    margin: 80px 0 3% 0;
+    padding: 0;
+    clear: left; }
+  .mobile .nav {
+    margin-top: 25%;
+    position: relative; }
+    .mobile .nav a {
+      text-align: left;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: white;
+      font-size: 15px;
+      font-weight: normal;
+      letter-spacing: 1px;
+      display: block;
+      float: none;
+      background: #2c3034;
+      width: 80%;
+      border-radius: 5px;
+      margin: 3% auto;
+      padding: 8px 0 8px 3%; }
+      .mobile .nav a img {
+        width: 15%;
+        padding: 0 5% 1% 0;
+        margin-right: 5%;
+        border-right: 2px solid rgba(255, 255, 255, 0.2); }
+  .mobile .homesubnav {
+    display: none;
+    width: 100%;
+    left: 0; }
+  .mobile .subnav,
+  .mobile .homesubnav {
+    position: fixed;
+    bottom: 0;
+    background: #2c3034;
+    z-index: 100; }
+    .mobile .subnav a,
+    .mobile .homesubnav a {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 8px;
+      color: #969696;
+      width: 13%;
+      padding: 0 4px;
+      height: 50px;
+      display: inline-block;
+      text-align: center;
+      border-left: 1px solid rgba(255, 255, 255, 0.2); }
+      .mobile .subnav a img,
+      .mobile .homesubnav a img {
+        width: 83%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5%; }
+    .mobile .subnav .active,
+    .mobile .homesubnav .active {
+      color: white; }
+    .mobile .subnav .alpha,
+    .mobile .homesubnav .alpha {
+      border: none; }
+  .mobile .arrange {
+    background: none;
+    margin: 1%;
+    position: relative;
+    float: left;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin: 0 10%;
+    display: inline-block; }
+    .mobile .arrange .arrangebar {
+      background: #2c3034;
+      font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 27px;
+      letter-spacing: 1px;
+      margin: 0;
+      padding: 3px 25px;
+      color: white;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px; }
+      @media screen and (max-width: 830px) {
+        .mobile .arrange .arrangebar {
+          font-size: 17px; } }
+    .mobile .arrange .arrangebody {
+      padding: 3%;
+      margin: 0;
+      border: 2px solid #2c3034;
+      border-top: none;
+      padding: 0;
+      height: 47px;
+      margin-bottom: 10%; }
+      .mobile .arrange .arrangebody .arrangewrapper {
+        width: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0 auto; }
+        .mobile .arrange .arrangebody .arrangewrapper .arrangeitem {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 10px;
+          background: #969696;
+          color: white;
+          padding: 3% 5px;
+          position: relative;
+          top: 13px;
+          border-radius: 5px; }
+          .mobile .arrange .arrangebody .arrangewrapper .arrangeitem:hover {
+            background: #2c3034; }
+        .mobile .arrange .arrangebody .arrangewrapper .active {
+          background: #2c3034;
+          color: #4ef253; }
+  .mobile .mobiledispensarycards .audcard {
+    width: 80%;
+    background: white;
+    display: inline-block;
+    margin: 1.25% 0;
+    padding: 0;
+    border-radius: 10px;
+    border: 2px solid #f7253e; }
+    .mobile .mobiledispensarycards .audcard .infocontainer {
+      padding: 0;
+      float: left;
+      width: 100%;
+      margin: 0;
+      position: relative;
+      text-align: center; }
+      .mobile .mobiledispensarycards .audcard .infocontainer .audinfo {
+        padding: 0;
+        float: left;
+        width: 100%;
+        position: relative; }
+        .mobile .mobiledispensarycards .audcard .infocontainer .audinfo .audlogo {
+          position: relative;
+          margin: 0 auto;
+          width: 80%;
+          padding: 5%; }
+        .mobile .mobiledispensarycards .audcard .infocontainer .audinfo h2 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 20px;
+          width: 100%;
+          height: 28px;
+          color: #f7253e; }
+        .mobile .mobiledispensarycards .audcard .infocontainer .audinfo h3 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 15px;
+          color: #969696; }
+      .mobile .mobiledispensarycards .audcard .infocontainer .overallrating {
+        margin: 0;
+        list-style: none; }
+        .mobile .mobiledispensarycards .audcard .infocontainer .overallrating li {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+          width: 16%; }
+        .mobile .mobiledispensarycards .audcard .infocontainer .overallrating h4 {
+          color: #969696;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 15px;
+          margin-top: 0;
+          padding: 0; }
+      .mobile .mobiledispensarycards .audcard .infocontainer .distance {
+        color: #f7253e;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        margin: 1% 2% 4% 0; }
+  .mobile .mobiledealcards .dealcardwrapper {
+    width: 80%;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 2% 10% 0 10%;
+    border-radius: 15px;
+    border: 3px dashed #2c3034; }
+    .mobile .mobiledealcards .dealcardwrapper img {
+      height: 100%;
+      width: 100%;
+      margin: 0 auto; }
+    .mobile .mobiledealcards .dealcardwrapper .dealinfo {
+      width: 100%;
+      position: absolute;
+      bottom: -5px;
+      left: -15px;
+      padding: 5%;
+      background: rgba(44, 48, 52, 0.7); }
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h1,
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h2,
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h3,
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h4,
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h5 {
+        width: 100%;
+        margin: 0;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        text-align: left; }
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h1 {
+        font-size: 16px;
+        line-height: 18px;
+        color: white; }
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h2 {
+        padding: 2% 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: #c8c8c8; }
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h3 {
+        padding: 1% 0 0 0;
+        font-size: 12px;
+        line-height: 14px;
+        color: #9b9b9b; }
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h4 {
+        padding: 3% 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: #fcd31c; }
+      .mobile .mobiledealcards .dealcardwrapper .dealinfo h5 {
+        padding: 3% 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: white; }
+    .mobile .mobiledealcards .dealcardwrapper .dealinfohover {
+      bottom: -5px; }
+  .mobile .footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #2c3034;
+    margin: 0 auto; }
+    .mobile .footer h2 {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      color: #969696;
+      padding: 2% 0 0 0;
+      margin: 0; }
+    .mobile .footer h3 {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 10px;
+      font-weight: normal;
+      color: #4ef253;
+      padding: 0 0 2% 0;
+      margin: 0; }
+      .mobile .footer h3 a {
+        color: #fcd31c;
+        padding-left: 3%; }
+  @media screen and (max-width: 600px) {
+    .mobile {
+      display: inline-block; } }
+
+/* Mobile End */
+/*---------------------------Index End------------------------------*/
+/*---------------------------Mainbody Start------------------------------*/
+.container {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 94%; }
+  .container .headerbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .container .headerbar {
+        font-size: 17px; } }
+  .container .dispensariesbody,
+  .container .dealsbody {
+    height: 100%;
+    padding: 0;
+    border: 2px solid #2c3034;
+    border-top: none;
+    position: relative; }
+    .container .dispensariesbody h1,
+    .container .dealsbody h1 {
+      font-size: 20px;
+      text-align: center;
+      color: #c8c8c8;
+      padding: 10px 0 0 0;
+      margin: 0; }
+  @media screen and (max-width: 600px) {
+    .container {
+      display: none; } }
+
+/*---------------------------Mainbody End------------------------------*/
+/*---------------------------Dispensaries Start------------------------------*/
+/* Adult Use Dispensaries Start */
+.dispensariesbody .audcard {
+  width: 21.5%;
+  background: white;
+  display: inline-block;
+  margin: 1.25% 0 1.25% 2.5%;
+  padding: 0;
+  border-radius: 10px;
+  border: 3px solid #f7253e;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .dispensariesbody .audcard:hover {
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+  .dispensariesbody .audcard .infocontainer {
+    padding: 0;
+    float: left;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    text-align: center; }
+    .dispensariesbody .audcard .infocontainer .audinfo {
+      padding: 0;
+      float: left;
+      width: 100%;
+      position: relative; }
+      .dispensariesbody .audcard .infocontainer .audinfo .audlogo {
+        position: relative;
+        margin: 0 auto;
+        width: 80%;
+        padding: 5%; }
+      .dispensariesbody .audcard .infocontainer .audinfo h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        width: 100%;
+        line-height: 22px;
+        color: #f7253e; }
+      .dispensariesbody .audcard .infocontainer .audinfo h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        color: #969696; }
+    .dispensariesbody .audcard .infocontainer .overallrating {
+      margin: 0;
+      list-style: none; }
+      .dispensariesbody .audcard .infocontainer .overallrating li {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 16%; }
+      .dispensariesbody .audcard .infocontainer .overallrating h4 {
+        color: #969696;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px; }
+    .dispensariesbody .audcard .infocontainer .distance {
+      color: #f7253e;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      margin: 1% 2% 4% 0; }
+@media screen and (max-width: 830px) {
+  .dispensariesbody .headerbar {
+    font-size: 17px; } }
+@media screen and (max-width: 600px) {
+  .dispensariesbody {
+    display: none; } }
+
+.map {
+  display: none; }
+
+.mapbody {
+  position: relative;
+  overflow: scroll; }
+  .mapbody .zoomcontrols .zoomin,
+  .mapbody .zoomcontrols .zoomout {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    background: rgba(44, 48, 52, 0.7);
+    padding: .4% 0 .8% 0;
+    width: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: 0; }
+    .mapbody .zoomcontrols .zoomin:hover,
+    .mapbody .zoomcontrols .zoomout:hover {
+      background: #2c3034;
+      cursor: pointer; }
+  .mapbody .zoomcontrols .zoomin {
+    top: 60px; }
+  .mapbody .zoomcontrols .zoomout {
+    top: 100px; }
+  .mapbody .mapdispensarylist {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28%;
+    border-left: 2px solid #2c3034; }
+    .mapbody .mapdispensarylist .dispensary {
+      background: url("../img/debut_light.png") repeat rgba(255, 255, 255, 0.8);
+      padding-left: 4%;
+      border-bottom: 1px solid #c8c8c8; }
+      .mapbody .mapdispensarylist .dispensary:hover {
+        background: white; }
+      .mapbody .mapdispensarylist .dispensary h2 {
+        color: #f7253e;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 19px;
+        margin: 0;
+        padding-top: 2%; }
+      .mapbody .mapdispensarylist .dispensary h3 {
+        color: #969696;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0; }
+      .mapbody .mapdispensarylist .dispensary .overallrating {
+        margin: 0 0 2% 0;
+        list-style: none; }
+        .mapbody .mapdispensarylist .dispensary .overallrating li {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+          width: 10%; }
+        .mapbody .mapdispensarylist .dispensary .overallrating h4 {
+          color: #969696;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 12px; }
+      .mapbody .mapdispensarylist .dispensary p {
+        color: #2c3034;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        display: none;
+        margin: 0; }
+      .mapbody .mapdispensarylist .dispensary button {
+        background: #f7253e;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        border-radius: 2px;
+        display: none;
+        padding: 3%;
+        width: 95%;
+        margin: 10px 0;
+        transition: 0; }
+        .mapbody .mapdispensarylist .dispensary button:hover {
+          transition: 0;
+          background: #2c3034; }
+        .mapbody .mapdispensarylist .dispensary button a {
+          color: white; }
+    .mapbody .mapdispensarylist .active {
+      background: white; }
+  @media screen and (max-width: 600px) {
+    .mapbody {
+      display: none; } }
+
+/* Adult Use Dispensaries End */
+#requestdispensary {
+  display: none;
+  position: absolute;
+  right: 5%; }
+  @media screen and (max-width: 600px) {
+    #requestdispensary {
+      display: none; } }
+
+/*---------------------------Dispensaries End------------------------------*/
+/*---------------------------Dispensary Start------------------------------*/
+/* Information Start */
+.info {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 55%; }
+  @media screen and (max-width: 600px) {
+    .info {
+      margin: 70px 1% 1% 1%; } }
+  .info .infobar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .info .infobar {
+        font-size: 17px; } }
+  .info .openorclosed {
+    position: absolute;
+    top: 174px;
+    left: 25px;
+    width: 21%; }
+  .info .open {
+    display: none; }
+  .info .infocontainer {
+    padding: 1% 3% 2% 3%;
+    height: 247px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: none; }
+    .info .infocontainer .audinfo {
+      border-left: 2px solid #2c3034;
+      padding: 0 1% 0 3%;
+      float: left;
+      width: 70%; }
+      .info .infocontainer .audinfo h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 25px;
+        color: red; }
+      .info .infocontainer .audinfo h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        padding: 0;
+        color: #2c3034;
+        float: left; }
+      .info .infocontainer .audinfo .map {
+        text-align: center;
+        width: 54px;
+        font-size: 11px;
+        color: white;
+        background: #2c3034;
+        padding: 8px;
+        margin: 2% 0 0 2%;
+        border-radius: 5px;
+        float: left; }
+        .info .infocontainer .audinfo .map:hover {
+          color: #fcd31c; }
+      .info .infocontainer .audinfo .overallrating {
+        margin: 20px 0 0 0;
+        list-style: none;
+        clear: left; }
+        .info .infocontainer .audinfo .overallrating li {
+          display: inline-block;
+          color: #2c3034;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0;
+          padding: 0;
+          width: 10%; }
+        .info .infocontainer .audinfo .overallrating h4 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          color: #2c3034;
+          font-weight: normal; }
+      .info .infocontainer .audinfo .contactinfo {
+        margin: 0px 0 0 0; }
+        .info .infocontainer .audinfo .contactinfo h4 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          margin: 0;
+          padding: 0;
+          height: 30px;
+          color: #f7253e;
+          font-weight: bold; }
+          @media screen and (max-width: 740px) {
+            .info .infocontainer .audinfo .contactinfo h4 {
+              font-size: 13px; } }
+          .info .infocontainer .audinfo .contactinfo h4 img {
+            width: 7%; }
+            @media screen and (max-width: 740px) {
+              .info .infocontainer .audinfo .contactinfo h4 img {
+                width: 10%; } }
+          .info .infocontainer .audinfo .contactinfo h4 a {
+            color: #f7253e; }
+            .info .infocontainer .audinfo .contactinfo h4 a img {
+              width: 7%; }
+              @media screen and (max-width: 740px) {
+                .info .infocontainer .audinfo .contactinfo h4 a img {
+                  width: 10%; } }
+    .info .infocontainer .audlogo {
+      float: left;
+      width: 25%;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      padding: 0;
+      margin: 0 3% 5% 1%; }
+    .info .infocontainer h2 {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      padding: 0;
+      height: 20px;
+      color: #2c3034;
+      line-height: 25px;
+      font-weight: 300; }
+      @media screen and (max-width: 740px) {
+        .info .infocontainer h2 {
+          font-size: 20px; } }
+  @media screen and (max-width: 740px) {
+    .info {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .info {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Information End */
+/* Images Start */
+.images {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 37%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    .images {
+      margin: 70px 1% 1% 1%; } }
+  .images .imagesbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .images .imagesbar {
+        font-size: 17px; } }
+  .images .orbit-timer,
+  .images .orbit-slide-number {
+    display: none; }
+  .images .orbit-prev,
+  .images .orbit-next {
+    background: rgba(44, 48, 52, 0.7); }
+  .images .orbit-prev {
+    border-radius: 0 15px 15px 0; }
+    .images .orbit-prev span {
+      border-right-color: #f7253e; }
+  .images .orbit-next {
+    border-radius: 15px 0 0 15px; }
+    .images .orbit-next span {
+      border-left-color: #f7253e; }
+  .images .orbit-bullets-container {
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%; }
+  .images .orbit-bullets {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 4;
+    cursor: pointer;
+    background: rgba(44, 48, 52, 0.7); }
+    .images .orbit-bullets li {
+      background: none;
+      border: 2px solid #f7253e; }
+      .images .orbit-bullets li.active {
+        background: white;
+        border: 2px solid white; }
+      .images .orbit-bullets li:hover {
+        border: 2px solid white; }
+  .images .imagesbody {
+    padding: 3%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    border: 2px solid #2c3034;
+    border-top: 0; }
+    .images .imagesbody li {
+      display: inline; }
+    .images .imagesbody img {
+      margin: 0;
+      width: 100%; }
+  @media screen and (max-width: 740px) {
+    .images {
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; }
+      .images .imagesbody {
+        height: 100%; } }
+  @media screen and (max-width: 600px) {
+    .images {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Images End */
+.hoursbtn {
+  border-radius: 2px;
+  padding: 10px 15px;
+  color: #fcd31c;
+  background: #2c3034;
+  margin: 0px 20px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+  .hoursbtn:hover {
+    color: #4ef253; }
+  @media screen and (max-width: 600px) {
+    .hoursbtn {
+      font-size: 9px;
+      padding: 2px 10px;
+      margin: 0; } }
+
+#hoursmodal table {
+  background: none;
+  margin: 0 auto;
+  border: none; }
+  #hoursmodal table tr {
+    background: none; }
+    #hoursmodal table tr td {
+      color: #2c3034;
+      font-weight: bold;
+      font-size: 13px;
+      padding: 5px 10px; }
+
+/* Menu Start */
+.menu {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 55%;
+  clear: left; }
+  .menu .menubar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .menu .menubar {
+        font-size: 17px; } }
+  .menu .menubody .menuoptions {
+    width: 100%;
+    height: 40px;
+    margin-top: 1px;
+    background: #2c3034; }
+    .menu .menubody .menuoptions .selectunits {
+      border: none;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: normal;
+      color: #969696;
+      width: 100%;
+      height: 30px;
+      padding: 2.4% 0 0 1%;
+      margin: 0 4% 0 0;
+      border-radius: 3px;
+      float: left;
+      text-align: center; }
+      .menu .menubody .menuoptions .selectunits a {
+        background: #969696;
+        display: inline;
+        width: 25%;
+        height: 30px;
+        padding: 1% 3%;
+        border-radius: 3px;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        color: white;
+        position: relative; }
+        .menu .menubody .menuoptions .selectunits a:hover {
+          background: #f7253e; }
+        @media screen and (max-width: 600px) {
+          .menu .menubody .menuoptions .selectunits a {
+            font-size: 11px; } }
+      .menu .menubody .menuoptions .selectunits .active {
+        background: #f7253e; }
+  .menu .menubody .tabs {
+    width: 100%; }
+    .menu .menubody .tabs dd {
+      width: 11.11%;
+      height: 100%;
+      padding: 0;
+      border-left: 1px solid white;
+      border-right: 1px solid white;
+      opacity: .4; }
+      .menu .menubody .tabs dd a {
+        padding: 0;
+        background: none; }
+      .menu .menubody .tabs dd.active {
+        z-index: +50;
+        border: 2px solid #2c3034;
+        opacity: 1;
+        top: 0; }
+  .menu .menubody .tabs-content {
+    border: 2px solid #2c3034;
+    background: #2c3034; }
+    .menu .menubody .tabs-content .content #menu {
+      width: 91%; }
+      .menu .menubody .tabs-content .content #menu .menuitem {
+        list-style: none;
+        height: 100%;
+        width: 100%;
+        margin: 2% 1% 4% 1%;
+        padding: 0;
+        border: 2px solid #f7253e;
+        border-radius: 5px;
+        background: url("../img/debut_light.png") repeat white; }
+        @media screen and (max-width: 600px) {
+          .menu .menubody .tabs-content .content #menu .menuitem {
+            width: 95%; } }
+        .menu .menubody .tabs-content .content #menu .menuitem .itemname {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+          padding: 2% 0 0 0; }
+        .menu .menubody .tabs-content .content #menu .menuitem #itemimg {
+          padding: 2%;
+          float: left;
+          width: 30%; }
+        .menu .menubody .tabs-content .content #menu .menuitem h2 {
+          padding: 0 0 .7% 0;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          line-height: 12px;
+          font-weight: 500;
+          margin: 0; }
+        .menu .menubody .tabs-content .content #menu .menuitem h3 {
+          margin: 0 0 0 10px;
+          font-size: 16px;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+          @media screen and (max-width: 600px) {
+            .menu .menubody .tabs-content .content #menu .menuitem h3 {
+              font-size: 12px; } }
+        .menu .menubody .tabs-content .content #menu .menuitem p {
+          clear: left;
+          font-size: 12px;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          line-height: 14px;
+          padding: 0 2%; }
+        .menu .menubody .tabs-content .content #menu .menuitem table {
+          margin: 1% auto 2% auto;
+          border: none;
+          background: none; }
+          .menu .menubody .tabs-content .content #menu .menuitem table tbody tr td {
+            font-size: 18px;
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            text-align: center; }
+          .menu .menubody .tabs-content .content #menu .menuitem table tbody .prices {
+            width: 100%; }
+            .menu .menubody .tabs-content .content #menu .menuitem table tbody .prices td {
+              padding: 5px 7px;
+              border: 2px solid #f7253e;
+              border-radius: 5px;
+              font-size: 15px;
+              -webkit-transition: .3s; }
+              @media screen and (max-width: 600px) {
+                .menu .menubody .tabs-content .content #menu .menuitem table tbody .prices td {
+                  font-size: 11px; } }
+          .menu .menubody .tabs-content .content #menu .menuitem table tbody .units {
+            width: 100%; }
+            .menu .menubody .tabs-content .content #menu .menuitem table tbody .units td {
+              padding: 3px 7px;
+              color: #f7253e;
+              font-weight: normal; }
+              @media screen and (max-width: 600px) {
+                .menu .menubody .tabs-content .content #menu .menuitem table tbody .units td {
+                  font-size: 11px; } }
+    @media screen and (max-width: 600px) {
+      .menu .menubody .tabs-content {
+        margin-bottom: 0; } }
+  @media screen and (max-width: 830px) {
+    .menu {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .menu {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Menu End */
+/* Current Deals Start */
+.currentdeals {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 37%; }
+  .currentdeals .headerbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .currentdeals .headerbar {
+        font-size: 17px; } }
+  .currentdeals .currentdealsbody {
+    height: 355px;
+    padding: 3% 20%;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    position: relative; }
+    @media screen and (max-width: 600px) {
+      .currentdeals .currentdealsbody {
+        padding: 0; } }
+    .currentdeals .currentdealsbody .dealcardwrapper {
+      width: 88%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      float: left;
+      margin: 2% 0 0 2.4%;
+      border-radius: 15px;
+      border: 2px dashed #2c3034; }
+      @media screen and (max-width: 600px) {
+        .currentdeals .currentdealsbody .dealcardwrapper {
+          margin: 4% 10% 0 10%;
+          width: 80%;
+          height: 330px; } }
+      .currentdeals .currentdealsbody .dealcardwrapper img {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto; }
+      .currentdeals .currentdealsbody .dealcardwrapper .dealinfo {
+        width: 100%;
+        position: absolute;
+        bottom: -27px;
+        left: -2px;
+        padding: 5%;
+        background: rgba(44, 48, 52, 0.7);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+        @media screen and (max-width: 600px) {
+          .currentdeals .currentdealsbody .dealcardwrapper .dealinfo {
+            left: -13px;
+            bottom: -5px; } }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo:hover {
+          bottom: -5px;
+          -webkit-transition: .3s;
+          -moz-transition: .3s;
+          -ms-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h1,
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h2,
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h3,
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h4,
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h5 {
+          width: 100%;
+          margin: 0;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-weight: normal;
+          text-align: left; }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h1 {
+          font-size: 16px;
+          line-height: 18px;
+          color: white; }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h2 {
+          padding: 2% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #c8c8c8; }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h3 {
+          padding: 1% 0 0 0;
+          font-size: 12px;
+          line-height: 14px;
+          color: #9b9b9b; }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h4 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #fcd31c; }
+        .currentdeals .currentdealsbody .dealcardwrapper .dealinfo h5 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: white; }
+      .currentdeals .currentdealsbody .dealcardwrapper .dealinfohover {
+        bottom: -5px; }
+  @media screen and (max-width: 830px) {
+    .currentdeals {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .currentdeals {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Current Deals End */
+/* Reviews Start */
+.reviews {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 37%; }
+  .reviews .reviewsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .reviews .reviewsbar {
+        font-size: 17px; } }
+  .reviews .reviewsbody {
+    height: 100%;
+    padding: 3%;
+    border: 2px solid #fcd31c;
+    border-top: 0; }
+    .reviews .reviewsbody .rating {
+      margin: 1% 0 0 10%; }
+      .reviews .reviewsbody .rating li {
+        display: inline-block; }
+      .reviews .reviewsbody .rating h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        font-weight: bold;
+        line-height: 10px;
+        width: 30px;
+        float: left;
+        margin-right: 30%; }
+      .reviews .reviewsbody .rating .star {
+        height: 26px;
+        width: 26px;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        -ms-transition: all .5s ease;
+        -o-transition: all .5s ease;
+        transition: all .5s ease; }
+      .reviews .reviewsbody .rating .star1,
+      .reviews .reviewsbody .rating .star2,
+      .reviews .reviewsbody .rating .star3,
+      .reviews .reviewsbody .rating .star4,
+      .reviews .reviewsbody .rating .star5 {
+        fill: #4ef253;
+        width: 26px;
+        height: 26px;
+        cursor: pointer; }
+      .reviews .reviewsbody .rating .star5 {
+        fill: #969696; }
+  @media screen and (max-width: 830px) {
+    .reviews {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .reviews {
+      margin: 3% 5% 0 5%;
+      padding-bottom: 100px;
+      width: 90%; } }
+
+/* Reviews End */
+#mapmodal.reveal-modal {
+  margin-top: -70px;
+  background: #2c3034;
+  border-radius: 10px;
+  outline: none; }
+  #mapmodal.reveal-modal small {
+    color: #646464; }
+    #mapmodal.reveal-modal small a {
+      color: #fcd31c; }
+
+.reveal-modal {
+  outline: none; }
+
+/*---------------------------Dispensary End------------------------------*/
+/*---------------------------Deals Start------------------------------*/
+.dealcontainer .headerbar {
+  color: #4ef253; }
+.dealcontainer .dealsbody {
+  float: left;
+  padding-bottom: 3%; }
+  .dealcontainer .dealsbody .dealcardwrapper {
+    width: 22%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin: 2% 0 0 2.4%;
+    border-radius: 15px;
+    border: 2px dashed #2c3034; }
+    .dealcontainer .dealsbody .dealcardwrapper img {
+      height: 100%;
+      width: 100%;
+      margin: 0 auto; }
+    .dealcontainer .dealsbody .dealcardwrapper .dealinfo {
+      width: 100%;
+      position: absolute;
+      bottom: -27px;
+      left: -2px;
+      padding: 5%;
+      background: rgba(44, 48, 52, 0.7);
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -ms-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo:hover {
+        bottom: -5px;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h1,
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h2,
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h3,
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h4,
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h5 {
+        width: 100%;
+        margin: 0;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        text-align: left; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h1 {
+        font-size: 16px;
+        line-height: 18px;
+        color: white; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h2 {
+        padding: 2% 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: #c8c8c8; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h3 {
+        padding: 1% 0 0 0;
+        font-size: 12px;
+        line-height: 14px;
+        color: #9b9b9b; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h4 {
+        padding: 3% 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: #fcd31c; }
+      .dealcontainer .dealsbody .dealcardwrapper .dealinfo h5 {
+        padding: 3% 0 0 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: white; }
+    .dealcontainer .dealsbody .dealcardwrapper .dealinfohover {
+      bottom: -5px; }
+@media screen and (max-width: 500px) {
+  .dealcontainer .headerbar {
+    font-size: 17px; } }
+
+#dealmodal.reveal-modal {
+  margin-top: -70px;
+  background: #2c3034;
+  border-radius: 10px;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+  #dealmodal.reveal-modal img {
+    width: 30%;
+    float: left;
+    clear: right;
+    margin-right: 5%; }
+  #dealmodal.reveal-modal h1 {
+    color: #fcd31c;
+    font-size: 25px; }
+  #dealmodal.reveal-modal h3 {
+    font-size: 14px;
+    color: #4ef253; }
+  #dealmodal.reveal-modal h2 {
+    color: #f7253e;
+    font-size: 25px;
+    font-weight: bold;
+    clear: left; }
+  #dealmodal.reveal-modal h4 {
+    color: #f7253e;
+    font-size: 15px; }
+  #dealmodal.reveal-modal h5 {
+    color: #4ef253;
+    font-size: 25px; }
+  #dealmodal.reveal-modal h6 {
+    color: #fcd31c;
+    font-size: 16px; }
+  #dealmodal.reveal-modal p {
+    color: white;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0; }
+
+.mapbody {
+  position: relative;
+  overflow: scroll; }
+  .mapbody .zoomcontrols .zoomin,
+  .mapbody .zoomcontrols .zoomout {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 22px;
+    color: white;
+    background: rgba(44, 48, 52, 0.7);
+    padding: .4% 0 .8% 0;
+    width: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: 0; }
+    .mapbody .zoomcontrols .zoomin:hover,
+    .mapbody .zoomcontrols .zoomout:hover {
+      background: #2c3034;
+      cursor: pointer; }
+  .mapbody .zoomcontrols .zoomin {
+    top: 60px; }
+  .mapbody .zoomcontrols .zoomout {
+    top: 100px; }
+  .mapbody .mapdeallist {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28%;
+    border-left: 2px solid #2c3034; }
+    .mapbody .mapdeallist .deal {
+      background: url("../img/debut_light.png") repeat rgba(255, 255, 255, 0.8);
+      padding-left: 4%;
+      border-bottom: 1px solid #c8c8c8;
+      cursor: pointer; }
+      .mapbody .mapdeallist .deal:hover {
+        background: white; }
+      .mapbody .mapdeallist .deal h2 {
+        color: #f7253e;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 19px;
+        margin: 0;
+        margin: 0;
+        padding: 2% 0 0 0; }
+      .mapbody .mapdeallist .deal h3 {
+        color: #2c3034;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0; }
+      .mapbody .mapdeallist .deal h4 {
+        color: #969696;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0 0 3% 0; }
+      .mapbody .mapdeallist .deal h5 {
+        display: none;
+        color: #f7253e;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+        padding: 0; }
+      .mapbody .mapdeallist .deal p {
+        color: #2c3034;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        display: none;
+        margin: 0; }
+      .mapbody .mapdeallist .deal button {
+        background: #f7253e;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        border-radius: 2px;
+        display: none;
+        padding: 3%;
+        width: 95%;
+        margin: 10px 0;
+        transition: 0; }
+        .mapbody .mapdeallist .deal button:hover {
+          transition: 0;
+          background: #2c3034; }
+        .mapbody .mapdeallist .deal button a {
+          color: white; }
+    .mapbody .mapdeallist .active {
+      background: white; }
+
+#submitdeal {
+  display: none;
+  position: absolute;
+  right: 5%; }
+  @media screen and (max-width: 600px) {
+    #submitdeal {
+      display: none; } }
+
+/*---------------------------Deals End------------------------------*/
+/*---------------------------Deal Information Start------------------------------*/
+/* Information Start */
+.dealinfo {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 55%; }
+  @media screen and (max-width: 600px) {
+    .dealinfo {
+      margin: 70px 1% 1% 1%; } }
+  .dealinfo .infobar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .dealinfo .infobar {
+        font-size: 17px; } }
+  .dealinfo .infocontainer {
+    padding: 2% 3% 0% 1%;
+    height: 247px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: none; }
+    .dealinfo .infocontainer .audinfo {
+      padding: 0 1% 0 3%;
+      float: left;
+      width: 100%; }
+      .dealinfo .infocontainer .audinfo h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #f7253e; }
+      .dealinfo .infocontainer .audinfo h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 15px 0 0px 0;
+        padding: 0;
+        color: #2c3034; }
+        @media screen and (max-width: 600px) {
+          .dealinfo .infocontainer .audinfo h3 {
+            margin-top: 40px; } }
+      .dealinfo .infocontainer .audinfo h4 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        padding: 0;
+        color: #969696; }
+      .dealinfo .infocontainer .audinfo .map {
+        text-align: center;
+        width: 54px;
+        font-size: 11px;
+        color: white;
+        background: #2c3034;
+        padding: 8px;
+        margin: 2% 0 3% 0%;
+        border-radius: 5px; }
+        .dealinfo .infocontainer .audinfo .map:hover {
+          color: #fcd31c; }
+      .dealinfo .infocontainer .audinfo .contactinfo {
+        margin: 15px 0 0 0;
+        padding: 0; }
+        .dealinfo .infocontainer .audinfo .contactinfo h4 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          margin: 0;
+          padding: 0;
+          height: 30px;
+          color: #f7253e;
+          font-weight: bold; }
+          @media screen and (max-width: 740px) {
+            .dealinfo .infocontainer .audinfo .contactinfo h4 {
+              font-size: 13px; } }
+          .dealinfo .infocontainer .audinfo .contactinfo h4 img {
+            width: 6%; }
+            @media screen and (max-width: 740px) {
+              .dealinfo .infocontainer .audinfo .contactinfo h4 img {
+                width: 10%; } }
+          .dealinfo .infocontainer .audinfo .contactinfo h4 a {
+            color: #f7253e; }
+            .dealinfo .infocontainer .audinfo .contactinfo h4 a img {
+              width: 6%; }
+              @media screen and (max-width: 740px) {
+                .dealinfo .infocontainer .audinfo .contactinfo h4 a img {
+                  width: 10%; } }
+    .dealinfo .infocontainer h2 {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      padding: 0;
+      height: 20px;
+      color: #2c3034;
+      line-height: 25px;
+      font-weight: 300; }
+      @media screen and (max-width: 740px) {
+        .dealinfo .infocontainer h2 {
+          font-size: 20px; } }
+  @media screen and (max-width: 740px) {
+    .dealinfo {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .dealinfo {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Information End */
+/* Images Start */
+.images {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 37%;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    .images {
+      margin: 70px 1% 1% 1%; } }
+  .images .imagesbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .images .imagesbar {
+        font-size: 17px; } }
+  .images .imagesbody {
+    padding: 3%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    height: 247px;
+    overflow: hidden; }
+    .images .imagesbody img {
+      margin: 0;
+      height: 100%; }
+  @media screen and (max-width: 740px) {
+    .images {
+      width: 94%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; } }
+  @media screen and (max-width: 600px) {
+    .images {
+      margin: 3% 5% 0 5%;
+      width: 80%; } }
+
+/* Images End */
+/* Details Start */
+.details {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 55%; }
+  .details .detailsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .details .detailsbar {
+        font-size: 17px; } }
+  .details .detailsbody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 4%; }
+    .details .detailsbody h3 {
+      margin: 0;
+      font-size: 27px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #969696; }
+    .details .detailsbody p {
+      font-size: 12px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: #2c3034;
+      font-weight: normal; }
+    .details .detailsbody .buttonwrapper {
+      position: relative;
+      text-align: center;
+      margin: 0 auto; }
+      .details .detailsbody .buttonwrapper h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #2c3034;
+        font-weight: normal;
+        font-size: 120%;
+        margin: 0; }
+      .details .detailsbody .buttonwrapper h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #969696;
+        font-weight: normal;
+        font-size: 90%;
+        margin-bottom: 3%; }
+      .details .detailsbody .buttonwrapper button {
+        background: #f7253e;
+        position: relative;
+        text-align: center;
+        margin: 10px auto;
+        border-radius: 2px;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 20px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none; }
+        .details .detailsbody .buttonwrapper button:hover {
+          -webkit-transition: none;
+          -moz-transition: none;
+          -ms-transition: none;
+          -o-transition: none;
+          transition: none;
+          background: #2c3034; }
+  @media screen and (max-width: 740px) {
+    .details {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .details {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Details End */
+/* Reviews Start */
+.reviews {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 37%; }
+  .reviews .reviewsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .reviews .reviewsbar {
+        font-size: 17px; } }
+  .reviews .reviewsbody {
+    height: 100%;
+    padding: 3%;
+    border: 2px solid #2c3034;
+    border-top: 0; }
+  @media screen and (max-width: 600px) {
+    .reviews {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Reviews End */
+/* Other Deals Start */
+#otherdeals {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 94%; }
+  #otherdeals .dailydealsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #otherdeals .dailydealsbar {
+        font-size: 17px; } }
+  #otherdeals .dailydeals {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    padding: 0;
+    float: left; }
+    #otherdeals .dailydeals .dealcardwrapper {
+      width: 22%;
+      margin: 4% 0 4% 2.4%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      float: left;
+      border-radius: 15px;
+      border: 2px dashed #2c3034; }
+      @media screen and (max-width: 600px) {
+        #otherdeals .dailydeals .dealcardwrapper {
+          margin: 4% 10% 0 10%;
+          width: 80%;
+          height: 350px; } }
+      #otherdeals .dailydeals .dealcardwrapper img {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto; }
+      #otherdeals .dailydeals .dealcardwrapper .dealinfo {
+        width: 100%;
+        position: absolute;
+        bottom: -27px;
+        left: -2px;
+        padding: 5%;
+        background: rgba(44, 48, 52, 0.7);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+        @media screen and (max-width: 600px) {
+          #otherdeals .dailydeals .dealcardwrapper .dealinfo {
+            left: -13px;
+            bottom: -5px; } }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo:hover {
+          bottom: -5px;
+          -webkit-transition: .3s;
+          -moz-transition: .3s;
+          -ms-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h1,
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h2,
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h3,
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h4,
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h5 {
+          width: 100%;
+          margin: 0;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-weight: normal; }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h1 {
+          font-size: 16px;
+          line-height: 18px;
+          color: white; }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h2 {
+          padding: 2% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #c8c8c8; }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h3 {
+          padding: 1% 0 0 0;
+          font-size: 12px;
+          line-height: 14px;
+          color: #9b9b9b; }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h4 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #fcd31c; }
+        #otherdeals .dailydeals .dealcardwrapper .dealinfo h5 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: white; }
+      #otherdeals .dailydeals .dealcardwrapper .dealinfohover {
+        bottom: -5px; }
+    @media screen and (max-width: 600px) {
+      #otherdeals .dailydeals {
+        padding-bottom: 3%; } }
+  @media screen and (max-width: 600px) {
+    #otherdeals {
+      margin: 3% 5% 100px 5%;
+      width: 90%; } }
+
+/* Other Deals End */
+/*---------------------------Deal Information End------------------------------*/
+/*---------------------------Strains Start------------------------------*/
+.strainscontainer {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left; }
+  @media screen and (max-width: 600px) {
+    .strainscontainer {
+      margin: 70px 1% 1% 1%; } }
+  .strainscontainer .strains {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    padding: 0 0 3% 0; }
+  .strainscontainer .straincard {
+    border: 3px solid #2c3034;
+    border-radius: 10px;
+    list-style: none;
+    width: 22%;
+    margin: 2% 0 0 2%;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s; }
+    .strainscontainer .straincard:hover {
+      -webkit-transform: scale(1.03);
+      -moz-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      -o-transform: scale(1.03);
+      transform: scale(1.03);
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -ms-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+    .strainscontainer .straincard img {
+      position: relative;
+      border-radius: 7px 7px 0 0;
+      width: 100%; }
+    .strainscontainer .straincard .sponsored {
+      position: absolute;
+      top: 10px;
+      z-index: 10;
+      width: 80%; }
+    .strainscontainer .straincard .straininfo {
+      background: #f7253e;
+      border-radius: 0 0 7px 7px;
+      margin: 0;
+      width: 100%; }
+      .strainscontainer .straincard .straininfo h1 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        background: #f7253e;
+        margin: 0;
+        line-height: 30px; }
+      .strainscontainer .straincard .straininfo h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        color: white;
+        background: #f7253e;
+        margin: 0;
+        padding: 2% 0; }
+      .strainscontainer .straincard .straininfo h4 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        line-height: 10px;
+        color: white;
+        background: #f7253e;
+        margin: 0;
+        padding: 2% 0 5.7% 0;
+        border-radius: 0 0 7px 7px; }
+      .strainscontainer .straincard .straininfo .overallrating {
+        margin: 0 auto 2% auto;
+        list-style: none;
+        text-align: center; }
+        .strainscontainer .straincard .straininfo .overallrating li {
+          display: inline-block;
+          margin: 0;
+          padding: 0;
+          width: 15%; }
+        .strainscontainer .straincard .straininfo .overallrating h4 {
+          color: #2c3034;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-weight: bold;
+          font-size: 12px; }
+
+/*---------------------------Strains End------------------------------*/
+/*---------------------------Strain Information Start------------------------------*/
+/* Information Start */
+.straininfo {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 55%; }
+  @media screen and (max-width: 600px) {
+    .straininfo {
+      margin: 70px 1% 1% 1%; } }
+  .straininfo .infobar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .straininfo .infobar {
+        font-size: 17px; } }
+  .straininfo .infocontainer {
+    padding: 2% 3% 0% 1%;
+    height: 247px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: none; }
+    .straininfo .infocontainer .audinfo {
+      padding: 0 1% 0 3%;
+      float: left;
+      width: 100%; }
+      .straininfo .infocontainer .audinfo h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #f7253e; }
+      .straininfo .infocontainer .audinfo h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        margin: 0 0 0px 0;
+        padding: 0;
+        color: #2c3034; }
+      .straininfo .infocontainer .audinfo h4 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        padding: 0;
+        color: #969696; }
+      .straininfo .infocontainer .audinfo h5 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        padding: 0;
+        color: #f7253e; }
+      .straininfo .infocontainer .audinfo .overallrating {
+        margin: 0;
+        padding: 0; }
+        .straininfo .infocontainer .audinfo .overallrating li {
+          list-style: none;
+          display: inline;
+          margin: 0;
+          padding: 0; }
+          .straininfo .infocontainer .audinfo .overallrating li img {
+            width: 30px; }
+    .straininfo .infocontainer h2 {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      padding: 0;
+      height: 20px;
+      color: #2c3034;
+      line-height: 25px;
+      font-weight: 300; }
+      @media screen and (max-width: 740px) {
+        .straininfo .infocontainer h2 {
+          font-size: 20px; } }
+  @media screen and (max-width: 740px) {
+    .straininfo {
+      width: 94%; } }
+
+/* Information End */
+/* Images Start */
+.images {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 37%; }
+  @media screen and (max-width: 600px) {
+    .images {
+      margin: 70px 1% 1% 1%; } }
+  .images .imagesbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .images .imagesbar {
+        font-size: 17px; } }
+  .images .imagesbody {
+    padding: 3%;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    height: 247px;
+    overflow: hidden; }
+    .images .imagesbody img {
+      margin: 0;
+      height: 100%; }
+  @media screen and (max-width: 740px) {
+    .images {
+      width: 94%;
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left; } }
+  @media screen and (max-width: 600px) {
+    .images {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Images End */
+/* Description Start */
+.description {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 55%; }
+  .description .descriptionbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .description .descriptionbar {
+        font-size: 17px; } }
+  .description .descriptionbody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 4% 4% 0 4%; }
+    .description .descriptionbody h3 {
+      margin: 0;
+      font-size: 27px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      color: #969696; }
+    .description .descriptionbody p {
+      font-size: 12px;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      color: #2c3034;
+      font-weight: normal; }
+    .description .descriptionbody .buttonwrapper {
+      position: relative;
+      text-align: center;
+      margin: 0 auto; }
+      .description .descriptionbody .buttonwrapper h2 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #2c3034;
+        font-weight: normal;
+        font-size: 120%;
+        margin: 0; }
+      .description .descriptionbody .buttonwrapper h3 {
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #969696;
+        font-weight: normal;
+        font-size: 90%;
+        margin-bottom: 3%; }
+      .description .descriptionbody .buttonwrapper button {
+        background: #f7253e;
+        position: relative;
+        text-align: center;
+        margin: 10px auto;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 20px;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+        transition: none; }
+        .description .descriptionbody .buttonwrapper button:hover {
+          -webkit-transition: none;
+          -moz-transition: none;
+          -ms-transition: none;
+          -o-transition: none;
+          transition: none;
+          background: #2c3034; }
+  @media screen and (max-width: 740px) {
+    .description {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .description {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Description End */
+/* Profile Start */
+.profile {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 17%; }
+  .profile .profilebar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .profile .profilebar {
+        font-size: 17px; } }
+  .profile .profilebody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 4%; }
+    .profile .profilebody ul {
+      list-style: none;
+      margin: 0; }
+      .profile .profilebody ul li {
+        text-align: center;
+        display: block;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #2c3034;
+        font-size: 16px;
+        padding: 0 1% 0 0; }
+  @media screen and (max-width: 600px) {
+    .profile {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Profile End */
+/* Effects Start */
+.effects {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 17%; }
+  .effects .effectsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .effects .effectsbar {
+        font-size: 17px; } }
+  .effects .effectsbody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 4%; }
+    .effects .effectsbody ul {
+      list-style: none;
+      margin: 0; }
+      .effects .effectsbody ul li {
+        text-align: center;
+        display: block;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #2c3034;
+        font-size: 16px;
+        padding: 0 1% 0 0; }
+  @media screen and (max-width: 600px) {
+    .effects {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Effects End */
+/* Negatives Start */
+.negatives {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 17%; }
+  .negatives .negativesbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .negatives .negativesbar {
+        font-size: 17px; } }
+  .negatives .negativesbody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 4%; }
+    .negatives .negativesbody ul {
+      list-style: none;
+      margin: 0; }
+      .negatives .negativesbody ul li {
+        text-align: center;
+        display: block;
+        font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+        color: #2c3034;
+        font-size: 16px;
+        padding: 0 1% 0 0; }
+  @media screen and (max-width: 600px) {
+    .negatives {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Negatives End */
+/* Reviews Start */
+.reviews {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 37%;
+  float: right;
+  margin-right: 5%; }
+  .reviews .reviewsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .reviews .reviewsbar {
+        font-size: 17px; } }
+  .reviews .reviewsbody {
+    height: 655px;
+    padding: 3%;
+    border: 2px solid #2c3034;
+    border-top: 0; }
+  @media screen and (max-width: 830px) {
+    .reviews {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .reviews {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Reviews End */
+/* Potency Start */
+.potency {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 55%; }
+  .potency .potencybar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .potency .potencybar {
+        font-size: 17px; } }
+  .potency .potencybody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 1% 0; }
+    .potency .potencybody table {
+      margin: 0 auto;
+      border: none;
+      background: none; }
+      .potency .potencybody table tbody tr {
+        width: 100%; }
+        .potency .potencybody table tbody tr td {
+          font-size: 12px;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          text-align: center;
+          padding: 0;
+          width: 15%;
+          height: 50px;
+          border-right: 1px solid gainsboro;
+          position: relative;
+          -webkit-transition: .3s; }
+          @media screen and (max-width: 600px) {
+            .potency .potencybody table tbody tr td {
+              font-size: 11px; } }
+          .potency .potencybody table tbody tr td span {
+            font-size: 14px; }
+          .potency .potencybody table tbody tr td .moreinfo {
+            background: white;
+            color: red;
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            float: right;
+            text-align: center;
+            width: 15px;
+            height: 15px;
+            border-radius: 10px;
+            position: absolute;
+            right: 5px;
+            top: 20px; }
+        .potency .potencybody table tbody tr .lastcolumn {
+          border: none;
+          background: #f7253e;
+          color: white; }
+      .potency .potencybody table tbody .bars {
+        height: 200px; }
+        .potency .potencybody table tbody .bars td {
+          background: #fcd31c; }
+        .potency .potencybody table tbody .bars .familyavg {
+          height: 12.5%; }
+        .potency .potencybody table tbody .bars .potencyhigh {
+          height: 20%; }
+  @media screen and (max-width: 740px) {
+    .potency {
+      width: 94%; } }
+  @media screen and (max-width: 600px) {
+    .potency {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Potency End */
+/* Prices Start */
+.prices {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 94%; }
+  .prices .pricesbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      .prices .pricesbar {
+        font-size: 17px; } }
+  .prices .pricesbody {
+    border: 2px solid #2c3034;
+    border-top: none;
+    margin-top: 0;
+    padding: 1% 0; }
+    .prices .pricesbody table {
+      margin: 0 auto;
+      border: none;
+      background: none; }
+      .prices .pricesbody table tbody tr {
+        width: 100%; }
+        .prices .pricesbody table tbody tr td {
+          font-size: 12px;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          text-align: center;
+          padding: 0;
+          width: 10%;
+          height: 50px;
+          border-right: 1px solid gainsboro;
+          position: relative;
+          -webkit-transition: .3s; }
+          @media screen and (max-width: 600px) {
+            .prices .pricesbody table tbody tr td {
+              font-size: 11px; } }
+          .prices .pricesbody table tbody tr td span {
+            font-size: 16px; }
+          .prices .pricesbody table tbody tr td .moreinfo {
+            background: white;
+            color: red;
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            float: right;
+            text-align: center;
+            width: 15px;
+            height: 15px;
+            border-radius: 10px;
+            position: absolute;
+            right: 5px;
+            top: 20px; }
+        .prices .pricesbody table tbody tr .lastcolumn {
+          border: none;
+          background: #f7253e;
+          color: white; }
+  @media screen and (max-width: 600px) {
+    .prices {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Prices End */
+/* Other Strains Start */
+#otherstrains {
+  background: none;
+  margin: 1%;
+  position: relative;
+  float: left;
+  width: 94%; }
+  #otherstrains .dailystrainsbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #otherstrains .dailystrainsbar {
+        font-size: 17px; } }
+  #otherstrains .dailystrains {
+    padding: 3%;
+    margin: 0;
+    border: 2px solid #2c3034;
+    border-top: 0;
+    padding: 0;
+    float: left; }
+    #otherstrains .dailystrains .straincard {
+      border: 3px solid #2c3034;
+      border-radius: 10px;
+      list-style: none;
+      width: 22%;
+      margin: 2% 0 2% 2%;
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-transition: .3s;
+      -moz-transition: .3s;
+      -ms-transition: .3s;
+      -o-transition: .3s;
+      transition: .3s; }
+      #otherstrains .dailystrains .straincard:hover {
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        transform: scale(1.03);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+      #otherstrains .dailystrains .straincard img {
+        position: relative;
+        border-radius: 7px 7px 0 0;
+        width: 100%; }
+      #otherstrains .dailystrains .straincard .sponsored {
+        position: absolute;
+        top: 10px;
+        z-index: 10;
+        width: 80%; }
+      #otherstrains .dailystrains .straincard .straininfo {
+        background: #f7253e;
+        border-radius: 0 0 7px 7px;
+        margin: 0;
+        width: 100%; }
+        #otherstrains .dailystrains .straincard .straininfo h1 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          color: white;
+          background: #f7253e;
+          margin: 0;
+          line-height: 30px; }
+        #otherstrains .dailystrains .straincard .straininfo h3 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 15px;
+          line-height: 20px;
+          text-align: center;
+          color: white;
+          background: #f7253e;
+          margin: 0;
+          padding: 2% 0; }
+        #otherstrains .dailystrains .straincard .straininfo h4 {
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-size: 15px;
+          text-align: center;
+          line-height: 10px;
+          color: white;
+          background: #f7253e;
+          margin: 0;
+          padding: 2% 0 5.7% 0;
+          border-radius: 0 0 7px 7px; }
+        #otherstrains .dailystrains .straincard .straininfo .overallrating {
+          margin: 0 auto 2% auto;
+          list-style: none;
+          text-align: center; }
+          #otherstrains .dailystrains .straincard .straininfo .overallrating li {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 15%; }
+          #otherstrains .dailystrains .straincard .straininfo .overallrating h4 {
+            color: #2c3034;
+            font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            font-size: 12px; }
+    #otherstrains .dailystrains .dealcardwrapper {
+      width: 22%;
+      margin: 4% 0 4% 2.4%;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      float: left;
+      border-radius: 15px;
+      border: 3px dashed #2c3034; }
+      #otherstrains .dailystrains .dealcardwrapper img {
+        height: 100%;
+        width: 100%;
+        margin: 0 auto; }
+      #otherstrains .dailystrains .dealcardwrapper .dealinfo {
+        width: 100%;
+        position: absolute;
+        bottom: -27px;
+        left: -2px;
+        padding: 5%;
+        background: rgba(44, 48, 52, 0.7);
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo:hover {
+          bottom: -5px;
+          -webkit-transition: .3s;
+          -moz-transition: .3s;
+          -ms-transition: .3s;
+          -o-transition: .3s;
+          transition: .3s; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h1,
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h2,
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h3,
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h4,
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h5 {
+          width: 100%;
+          margin: 0;
+          font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+          font-weight: normal; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h1 {
+          font-size: 16px;
+          line-height: 18px;
+          color: white; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h2 {
+          padding: 2% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #c8c8c8; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h3 {
+          padding: 1% 0 0 0;
+          font-size: 12px;
+          line-height: 14px;
+          color: #9b9b9b; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h4 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: #fcd31c; }
+        #otherstrains .dailystrains .dealcardwrapper .dealinfo h5 {
+          padding: 3% 0 0 0;
+          font-size: 14px;
+          line-height: 16px;
+          color: white; }
+      #otherstrains .dailystrains .dealcardwrapper .dealinfohover {
+        bottom: -5px; }
+  @media screen and (max-width: 600px) {
+    #otherstrains {
+      margin: 3% 5% 0 5%;
+      width: 90%; } }
+
+/* Other Strains End */
+/*---------------------------Strain Information End------------------------------*/
+/*---------------------------News Start------------------------------*/
+/* News Start */
+#newswrapper {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 98%; }
+  @media screen and (max-width: 600px) {
+    #newswrapper {
+      margin: 70px 1% 1% 1%; } }
+  #newswrapper #statenews,
+  #newswrapper #federalnews,
+  #newswrapper #generalnews {
+    float: left;
+    width: 30.4%;
+    padding: 3%;
+    margin: 0;
+    padding: 0;
+    margin: 0 2.5% 0 0; }
+    #newswrapper #statenews img,
+    #newswrapper #federalnews img,
+    #newswrapper #generalnews img {
+      border-radius: 2px 0;
+      margin: 0; }
+    #newswrapper #statenews .article,
+    #newswrapper #federalnews .article,
+    #newswrapper #generalnews .article {
+      position: relative;
+      display: table; }
+    #newswrapper #statenews .caption,
+    #newswrapper #federalnews .caption,
+    #newswrapper #generalnews .caption {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      background: #2c3034;
+      color: white;
+      text-align: center;
+      width: 100%;
+      padding: 4%;
+      margin: 0 0 5% 0;
+      position: relative;
+      z-index: 20;
+      border-radius: 0 2px; }
+    #newswrapper #statenews .description,
+    #newswrapper #federalnews .description,
+    #newswrapper #generalnews .description {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 16px;
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      background: black;
+      color: white;
+      margin: 0;
+      width: 100%;
+      height: 101%;
+      opacity: 0;
+      padding: 20px;
+      display: table-cell;
+      text-align: left;
+      vertical-align: middle; }
+      #newswrapper #statenews .description:hover,
+      #newswrapper #federalnews .description:hover,
+      #newswrapper #generalnews .description:hover {
+        background: rgba(0, 0, 0, 0.8);
+        opacity: 1;
+        -webkit-transition: all .4s linear;
+        -moz-transition: all .4s linear;
+        -ms-transition: all .4s linear;
+        -o-transition: all .4s linear;
+        transition: all .4s linear; }
+    @media screen and (max-width: 600px) {
+      #newswrapper #statenews,
+      #newswrapper #federalnews,
+      #newswrapper #generalnews {
+        width: 80%;
+        margin: 2% 10%; } }
+  #newswrapper .snbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #newswrapper .snbar {
+        font-size: 17px; } }
+  #newswrapper .fnbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #f7253e;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #newswrapper .fnbar {
+        font-size: 17px; } }
+  #newswrapper .gnbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #newswrapper .gnbar {
+        font-size: 17px; } }
+  @media screen and (max-width: 700px) {
+    #newswrapper #statenews .caption,
+    #newswrapper #federalnews .caption,
+    #newswrapper #generalnews .caption {
+      font-size: 11px; }
+    #newswrapper #statenews .description,
+    #newswrapper #federalnews .description,
+    #newswrapper #generalnews .description {
+      display: none; } }
+  @media screen and (max-width: 500px) {
+    #newswrapper .snbar {
+      font-size: 17px; }
+    #newswrapper .fnbar {
+      font-size: 17px; }
+    #newswrapper .gnbar {
+      font-size: 17px; } }
+
+#newswrapper {
+  position: relative-absolute;
+  /* Advertising Start */
+  /* Advertising End */ }
+  #newswrapper #advertising {
+    display: none;
+    background: none;
+    margin: 1%;
+    position: relative;
+    float: left;
+    margin: 0;
+    float: left;
+    width: 10%; }
+    #newswrapper #advertising .adbar {
+      background: #2c3034;
+      font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 27px;
+      letter-spacing: 1px;
+      margin: 0;
+      padding: 3px 25px;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+      font-size: 15px;
+      background: #c8c8c8;
+      color: white; }
+      @media screen and (max-width: 830px) {
+        #newswrapper #advertising .adbar {
+          font-size: 17px; } }
+    #newswrapper #advertising .adbackground {
+      height: 100%; }
+      #newswrapper #advertising .adbackground img {
+        display: block;
+        margin: 3% 0 0 0; }
+    @media screen and (max-width: 600px) {
+      #newswrapper #advertising .adbar {
+        padding: 3px 1px 3px 1px;
+        font-size: 7px; }
+      #newswrapper #advertising .adbackground img {
+        margin-bottom: 10px; } }
+    @media screen and (max-width: 600px) {
+      #newswrapper #advertising {
+        display: none; } }
+  @media screen and (max-width: 600px) {
+    #newswrapper {
+      margin-top: 0; } }
+
+/* News End */
+/*---------------------------News End------------------------------*/
+/*---------------------------News Article Start------------------------------*/
+#mainstory {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 61.8%; }
+  @media screen and (max-width: 600px) {
+    #mainstory {
+      margin: 70px 1% 1% 1%; } }
+  #mainstory .mainstorybar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #fcd31c;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #mainstory .mainstorybar {
+        font-size: 17px; } }
+  #mainstory .mainstory {
+    border: 2px solid #2c3034;
+    border-top: none; }
+    #mainstory .mainstory .newspic {
+      width: 90%;
+      margin: 5%; }
+    #mainstory .mainstory .newstitle {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 20px;
+      font-weight: bold;
+      color: #f7253e;
+      margin: 2px 8px 0 5%;
+      line-height: 16px; }
+    #mainstory .mainstory .newsauthor {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 11px;
+      color: #2c3034;
+      margin: 0 5%; }
+    #mainstory .mainstory .newssection {
+      font-size: 14px;
+      line-height: 15px;
+      font-weight: bold;
+      color: #969696; }
+    #mainstory .mainstory .newsbody {
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      line-height: 14px;
+      padding: 3% 5% 0 5%; }
+    #mainstory .mainstory .snreadmore {
+      background: #4ef253;
+      padding: 2px 10px;
+      text-align: right; }
+    #mainstory .mainstory .snreadmore a {
+      color: white;
+      text-align: right; }
+    #mainstory .mainstory #tags {
+      padding: 5%;
+      width: 100%;
+      font-size: 12px; }
+    #mainstory .mainstory .tag {
+      background: #2c3034;
+      padding: 4px;
+      margin: 1%;
+      color: white;
+      font-size: 9px;
+      display: inline;
+      line-height: 24px; }
+  @media screen and (max-width: 840px) {
+    #mainstory #tags {
+      font-size: 10px; }
+    #mainstory .tag {
+      padding: 4px;
+      font-size: 9px; } }
+  @media screen and (max-width: 600px) {
+    #mainstory {
+      background: none;
+      margin: 1%;
+      position: relative;
+      float: left;
+      margin: 3% 10% 0 10%;
+      width: 80%; } }
+
+/* Featured News Start */
+#mainstoryfeaturednews {
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  width: 30.4%; }
+  @media screen and (max-width: 600px) {
+    #mainstoryfeaturednews {
+      margin: 70px 1% 1% 1%; } }
+  #mainstoryfeaturednews .featuredbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    color: #4ef253;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px; }
+    @media screen and (max-width: 830px) {
+      #mainstoryfeaturednews .featuredbar {
+        font-size: 17px; } }
+  #mainstoryfeaturednews .featurednews img {
+    margin: 3% 0 0 0; }
+  #mainstoryfeaturednews .featurednews .article {
+    position: relative;
+    display: table; }
+  #mainstoryfeaturednews .featurednews .caption {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    background: #2c3034;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 3%; }
+  #mainstoryfeaturednews .featurednews .description {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 0;
+    background: black;
+    color: white;
+    margin: 1% 0 0 0;
+    width: 100%;
+    height: 96%;
+    opacity: 0;
+    padding: 20px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle; }
+    #mainstoryfeaturednews .featurednews .description:hover {
+      background: rgba(0, 0, 0, 0.8);
+      opacity: 1;
+      -webkit-transition: all .4s linear;
+      -moz-transition: all .4s linear;
+      -ms-transition: all .4s linear;
+      -o-transition: all .4s linear;
+      transition: all .4s linear; }
+  @media screen and (max-width: 700px) {
+    #mainstoryfeaturednews .featurednews .caption {
+      font-size: 11px; }
+    #mainstoryfeaturednews .featurednews .description {
+      display: none; } }
+  @media screen and (max-width: 600px) {
+    #mainstoryfeaturednews {
+      margin: 3% 10% 0 10%;
+      width: 80%; } }
+
+/* Featured News End */
+/* Advertising Start */
+#advertising {
+  display: none;
+  background: none;
+  margin: 40px 1% 1% 1%;
+  position: relative;
+  float: left;
+  float: left;
+  width: 10%; }
+  @media screen and (max-width: 600px) {
+    #advertising {
+      margin: 70px 1% 1% 1%; } }
+  #advertising .adbar {
+    background: #2c3034;
+    font-family: "dense", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 3px 25px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    font-size: 15px;
+    background: #c8c8c8;
+    color: white; }
+    @media screen and (max-width: 830px) {
+      #advertising .adbar {
+        font-size: 17px; } }
+  #advertising .adbackground {
+    height: 100%; }
+    #advertising .adbackground img {
+      display: block;
+      margin: 7% 0 0 0; }
+  @media screen and (max-width: 600px) {
+    #advertising .adbar {
+      padding: 3px 1px 3px 1px;
+      font-size: 7px; }
+    #advertising .adbackground img {
+      margin-bottom: 10px; } }
+
+/* Advertising End */
+/*---------------------------News Article End------------------------------*/
